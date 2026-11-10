@@ -374,5 +374,284 @@
         "poster": "cases/08-doston/video-04.jpg"
       }
     ]
+  },
+  {
+    "id": "product-concepts",
+    "folder": "cases/09-product-concepts",
+    "concept": true,
+    "categories": [
+      "concepts",
+      "product"
+    ],
+    "brand": {
+      "ru": "Продуктовые визуалы",
+      "en": "Product visuals"
+    },
+    "metric": {
+      "ru": "Некоммерческий концепт",
+      "en": "Non-commercial concept"
+    },
+    "poster": "cases/09-product-concepts/poster.jpg",
+    "videos": [
+      {
+        "src": "cases/09-product-concepts/video.mp4",
+        "poster": "cases/09-product-concepts/video.jpg"
+      },
+      {
+        "src": "cases/09-product-concepts/video-02.mp4",
+        "poster": "cases/09-product-concepts/video-02.jpg"
+      },
+      {
+        "src": "cases/09-product-concepts/video-03.mp4",
+        "poster": "cases/09-product-concepts/video-03.jpg"
+      }
+    ],
+    "gallery": [
+      "cases/09-product-concepts/video.jpg",
+      "cases/09-product-concepts/video-02.jpg",
+      "cases/09-product-concepts/video-03.jpg"
+    ],
+    "ru": {
+      "t": "Продуктовые концепты - форма, свет и атмосфера",
+      "q": "Поэкспериментировать с визуальной подачей продукта.",
+      "d": "Собрал некоммерческие AI-концепты с акцентом на форму продукта, свет, фактуры и атмосферу.",
+      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+    },
+    "en": {
+      "t": "Product concepts - form, light and atmosphere",
+      "q": "Explore visual approaches to product imagery.",
+      "d": "Created non-commercial AI concepts exploring product form, lighting, texture and atmosphere.",
+      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+    }
+  },
+  {
+    "id": "vfx-concepts",
+    "folder": "cases/10-vfx-concepts",
+    "concept": true,
+    "categories": [
+      "concepts",
+      "vfx"
+    ],
+    "brand": {
+      "ru": "Реальность с AI",
+      "en": "Reality with AI"
+    },
+    "metric": {
+      "ru": "Некоммерческий концепт",
+      "en": "Non-commercial concept"
+    },
+    "poster": "cases/10-vfx-concepts/poster.jpg",
+    "videos": [
+      {
+        "src": "cases/10-vfx-concepts/video.mp4",
+        "poster": "cases/10-vfx-concepts/video.jpg"
+      },
+      {
+        "src": "cases/10-vfx-concepts/video-02.mp4",
+        "poster": "cases/10-vfx-concepts/video-02.jpg"
+      },
+      {
+        "src": "cases/10-vfx-concepts/video-03.mp4",
+        "poster": "cases/10-vfx-concepts/video-03.jpg"
+      }
+    ],
+    "gallery": [
+      "cases/10-vfx-concepts/video.jpg",
+      "cases/10-vfx-concepts/video-02.jpg",
+      "cases/10-vfx-concepts/video-03.jpg"
+    ],
+    "ru": {
+      "t": "AI-VFX - эксперименты с реальностью",
+      "q": "Показать, как AI меняет привычную сцену.",
+      "d": "Собрал визуальные эксперименты: пульт меняет окружающий мир, гигантский объект появляется в городе, а хромакей превращается в сцену битвы.",
+      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+    },
+    "en": {
+      "t": "AI VFX - experiments with reality",
+      "q": "Explore how AI can transform an everyday scene.",
+      "d": "Created visual experiments: a remote changes the world, a giant object appears in the city, and a green-screen shot becomes a battle scene.",
+      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+    }
+  },
+  {
+    "id": "music-concepts",
+    "folder": "cases/11-music-concepts",
+    "concept": true,
+    "categories": [
+      "concepts",
+      "music"
+    ],
+    "brand": {
+      "ru": "Музыкальные миры",
+      "en": "Music worlds"
+    },
+    "metric": {
+      "ru": "Некоммерческий концепт",
+      "en": "Non-commercial concept"
+    },
+    "poster": "cases/11-music-concepts/poster.jpg",
+    "videos": [
+      {
+        "src": "cases/11-music-concepts/video.mp4",
+        "poster": "cases/11-music-concepts/video.jpg"
+      },
+      {
+        "src": "cases/11-music-concepts/video-02.mp4",
+        "poster": "cases/11-music-concepts/video-02.jpg"
+      },
+      {
+        "src": "cases/11-music-concepts/video-03.mp4",
+        "poster": "cases/11-music-concepts/video-03.jpg"
+      }
+    ],
+    "gallery": [
+      "cases/11-music-concepts/video.jpg",
+      "cases/11-music-concepts/video-02.jpg",
+      "cases/11-music-concepts/video-03.jpg"
+    ],
+    "ru": {
+      "t": "Музыкальные AI-концепты - миры под настроение",
+      "q": "Исследовать визуальные идеи для музыкального видео.",
+      "d": "Собрал некоммерческие клиповые концепты с фантастическими локациями, персонажами и кинематографичной атмосферой.",
+      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+    },
+    "en": {
+      "t": "Music video concepts - worlds and moods",
+      "q": "Explore visual ideas for music videos.",
+      "d": "Created non-commercial music video concepts with imaginative locations, characters and cinematic atmosphere.",
+      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+    }
+  },
+  {
+    "id": "avatar-concept",
+    "folder": "cases/12-avatar-concept",
+    "concept": true,
+    "categories": [
+      "concepts",
+      "avatars"
+    ],
+    "brand": {
+      "ru": "Экспертный AI-аватар",
+      "en": "Expert AI avatar"
+    },
+    "metric": {
+      "ru": "Некоммерческий концепт",
+      "en": "Non-commercial concept"
+    },
+    "poster": "cases/12-avatar-concept/poster.jpg",
+    "videos": [
+      {
+        "src": "cases/12-avatar-concept/video.mp4",
+        "poster": "cases/12-avatar-concept/video.jpg"
+      }
+    ],
+    "gallery": [
+      "cases/12-avatar-concept/video.jpg"
+    ],
+    "ru": {
+      "t": "AI-аватар - концепт экспертного видео",
+      "q": "Показать визуальную подачу экспертного ролика с AI-аватаром.",
+      "d": "Собрал концепт со спикером-аватаром и тематическим видеорядом.",
+      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+    },
+    "en": {
+      "t": "AI avatar - an expert video concept",
+      "q": "Explore an expert video format with an AI avatar.",
+      "d": "Created a concept combining an avatar presenter with topical visuals.",
+      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+    }
+  },
+  {
+    "id": "character-concepts",
+    "folder": "cases/13-character-concepts",
+    "concept": true,
+    "categories": [
+      "concepts",
+      "characters"
+    ],
+    "brand": {
+      "ru": "Герои вне шаблона",
+      "en": "Characters beyond the brief"
+    },
+    "metric": {
+      "ru": "Некоммерческий концепт",
+      "en": "Non-commercial concept"
+    },
+    "poster": "cases/13-character-concepts/poster.jpg",
+    "videos": [
+      {
+        "src": "cases/13-character-concepts/video.mp4",
+        "poster": "cases/13-character-concepts/video.jpg"
+      },
+      {
+        "src": "cases/13-character-concepts/video-02.mp4",
+        "poster": "cases/13-character-concepts/video-02.jpg"
+      },
+      {
+        "src": "cases/13-character-concepts/video-03.mp4",
+        "poster": "cases/13-character-concepts/video-03.jpg"
+      },
+      {
+        "src": "cases/13-character-concepts/video-04.mp4",
+        "poster": "cases/13-character-concepts/video-04.jpg"
+      }
+    ],
+    "gallery": [
+      "cases/13-character-concepts/video.jpg",
+      "cases/13-character-concepts/video-02.jpg",
+      "cases/13-character-concepts/video-03.jpg",
+      "cases/13-character-concepts/video-04.jpg"
+    ],
+    "ru": {
+      "t": "AI-персонажи - визуальные эксперименты",
+      "q": "Исследовать разных AI-героев, движения и повседневные сцены.",
+      "d": "Собрал концепты с персонажами в разных ситуациях: готовка, магазин, модельная подача и танец.",
+      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+    },
+    "en": {
+      "t": "AI characters - visual experiments",
+      "q": "Explore AI characters, movement and everyday scenes.",
+      "d": "Created character concepts across different situations: cooking, shopping, fashion and dance.",
+      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+    }
+  },
+  {
+    "id": "cinematic-concept",
+    "folder": "cases/14-cinematic-concept",
+    "concept": true,
+    "categories": [
+      "concepts",
+      "characters"
+    ],
+    "brand": {
+      "ru": "Киношный разгон",
+      "en": "Cinematic experiment"
+    },
+    "metric": {
+      "ru": "Некоммерческий концепт",
+      "en": "Non-commercial concept"
+    },
+    "poster": "cases/14-cinematic-concept/poster.jpg",
+    "videos": [
+      {
+        "src": "cases/14-cinematic-concept/video.mp4",
+        "poster": "cases/14-cinematic-concept/video.jpg"
+      }
+    ],
+    "gallery": [
+      "cases/14-cinematic-concept/video.jpg"
+    ],
+    "ru": {
+      "t": "AI-кино - концепт футуристического мира",
+      "q": "Исследовать фантастическую историю в коротком видео.",
+      "d": "Собрал некоммерческий визуальный концепт: переход из обычного пространства в футуристический город и динамичные сцены с мотоциклом.",
+      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+    },
+    "en": {
+      "t": "AI cinema - a futuristic world concept",
+      "q": "Explore a science-fiction story in a short video.",
+      "d": "Created a non-commercial visual concept that moves from an everyday setting into a futuristic city and dynamic motorcycle scenes.",
+      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+    }
   }
 ]
