@@ -1,657 +1,655 @@
 [
-  {
-    "id": "bonche",
-    "folder": "cases/01-bonche",
-    "ru": {
-      "t": "BONCHE - рекламный ролик с AI-продакшном",
-      "q": "Рекламный ролик для нового продукта по сюжету и ТЗ клиента.",
-      "d": "Разложил сценарий на сцены и кадры. Сгенерировал и согласовал с клиентом варианты персонажей, локаций и деталей: европейские улицы, ретро-автомобили, атмосферные кафе. Держал героев одинаковыми из кадра в кадр, сгенерировал видео, смонтировал и довёл ролик до финала.",
-      "r": "Ролик принят клиентом и опубликован в официальных каналах бренда."
-    },
-    "en": {
-      "t": "BONCHE - ad film made with AI",
-      "q": "An ad for a new product, from the client story and brief.",
-      "d": "Broke the script into scenes and shots. Generated and agreed with the client the characters, locations and details: European streets, vintage cars, cosy cafes. Kept the heroes consistent from shot to shot, generated the video, edited it to final.",
-      "r": "Approved by the client and published on the brand official channels."
-    },
-    "brand": {
-      "ru": "BONCHE",
-      "en": "BONCHE"
-    },
-    "metric": {
-      "ru": "Опубликован брендом",
-      "en": "Published by the brand"
-    },
-    "categories": [
-      "ads",
-      "characters"
-    ],
-    "poster": "cases/01-bonche/poster.jpg",
-    "gallery": [
-      "cases/01-bonche/bonche-1.jpg",
-      "cases/01-bonche/bonche-2.jpg",
-      "cases/01-bonche/bonche-3.jpg",
-      "cases/01-bonche/bonche-poster.jpg"
-    ],
-    "videos": [
-      {
-        "src": "cases/01-bonche/video.mp4",
-        "poster": "cases/01-bonche/video.jpg"
-      }
-    ]
+ {
+  "id": "bonche",
+  "folder": "cases/01-bonche",
+  "ru": {
+   "t": "BONCHE - рекламный ролик с AI-продакшном",
+   "q": "Рекламный ролик для нового продукта по сюжету и ТЗ клиента.",
+   "d": "Разложил сценарий на сцены и кадры. Сгенерировал и согласовал с клиентом варианты персонажей, локаций и деталей: европейские улицы, ретро-автомобили, атмосферные кафе. Держал героев одинаковыми из кадра в кадр, сгенерировал видео, смонтировал и довёл ролик до финала.",
+   "r": "Ролик принят клиентом и опубликован в официальных каналах бренда."
   },
-  {
-    "id": "uralsib",
-    "folder": "cases/02-uralsib",
-    "ru": {
-      "t": "Уралсиб Банк - анимационный рекламный ролик",
-      "q": "Необычная рекламная интеграция для банка в формате анимационного ролика для соцсетей.",
-      "d": "Придумал визуальный стиль, собрал историю про космос, ракеты и полярное сияние, сделал сцены и анимацию, озвучку, музыку и финальную сборку под соцсети.",
-      "r": "Законченный брендовый ролик, банк опубликовал его в своих соцсетях."
-    },
-    "en": {
-      "t": "Uralsib Bank - animated ad",
-      "q": "An unusual ad integration for a bank, as an animated video for social media.",
-      "d": "Came up with the visual style and a story about space, rockets and the northern lights, made the scenes and animation, voice-over, music and final assembly for social.",
-      "r": "A finished brand video that the bank published on its social media."
-    },
-    "brand": {
-      "ru": "Уралсиб Банк",
-      "en": "Uralsib Bank"
-    },
-    "metric": {
-      "ru": "В соцсетях банка",
-      "en": "On the bank’s social media"
-    },
-    "categories": [
-      "animation"
-    ],
-    "poster": "cases/02-uralsib/poster.jpg",
-    "gallery": [
-      "cases/02-uralsib/uralsib-1.jpg",
-      "cases/02-uralsib/uralsib-2.jpg",
-      "cases/02-uralsib/uralsib-3.jpg",
-      "cases/02-uralsib/uralsib-poster.jpg"
-    ],
-    "videos": [
-      {
-        "src": "cases/02-uralsib/video.mp4",
-        "poster": "cases/02-uralsib/video.jpg"
-      }
-    ]
+  "en": {
+   "t": "BONCHE - ad film made with AI",
+   "q": "An ad for a new product, from the client story and brief.",
+   "d": "Broke the script into scenes and shots. Generated and agreed with the client the characters, locations and details: European streets, vintage cars, cosy cafes. Kept the heroes consistent from shot to shot, generated the video, edited it to final.",
+   "r": "Approved by the client and published on the brand official channels."
   },
-  {
-    "id": "danmax",
-    "folder": "cases/03-danmax",
-    "ru": {
-      "t": "Данмакс - маскот бренда и AI-мультфильмы",
-      "q": "Бренду нужна была система контента, которая превращает охваты в заявки.",
-      "d": "Придумал и собрал маскота бренда - медведя в доспехах - и запустил с ним серию AI-мультфильмов для Shorts. Плюс реальные съёмки с AI/VFX-вставками (например, AI-интерфейс выбора плёнки в мастерской), обложки и графика.",
-      "r": "Около 1,2 млн просмотров по всем площадкам, около 65 заявок из лички и Telegram-чат-бота. Ролик с маскотом - 626 000 просмотров. YouTube - около 955 000 просмотров и +1 900 подписчиков."
-    },
-    "en": {
-      "t": "DANMAX - brand mascot and AI cartoons",
-      "q": "The brand needed a content system that turns reach into leads.",
-      "d": "Designed the brand mascot, a bear in armour, and launched a series of AI cartoons with it for Shorts. Plus live footage with AI/VFX inserts (for example an AI film-picker interface in the workshop), covers and graphics.",
-      "r": "About 1.2M views across platforms and about 65 leads from DMs and a Telegram bot. The mascot video got 626,000 views. YouTube: about 955,000 views and +1,900 subscribers."
-    },
-    "brand": {
-      "ru": "Данмакс",
-      "en": "DANMAX"
-    },
-    "metric": {
-      "ru": "≈1,2 млн просмотров",
-      "en": "≈1.2M views"
-    },
-    "categories": [
-      "characters",
-      "animation",
-      "vfx"
-    ],
-    "poster": "cases/03-danmax/poster.jpg",
-    "gallery": [
-      "cases/03-danmax/danmaks-1.jpg",
-      "cases/03-danmax/danmaks-2.jpg",
-      "cases/03-danmax/danmaks-3.jpg",
-      "cases/03-danmax/danmaks-4.jpg",
-      "cases/03-danmax/danmaks-5.jpg",
-      "cases/03-danmax/danmaks-6.jpg",
-      "cases/03-danmax/danmaks-7.jpg",
-      "cases/03-danmax/danmaks-8.jpg",
-      "cases/03-danmax/danmaks-cover.jpg"
-    ],
-    "videos": [],
-    "external": [
-      {
-        "url": "https://www.instagram.com/danmax_technology/",
-        "ru": "Профиль бренда в Instagram",
-        "en": "Brand profile on Instagram"
-      }
-    ]
+  "brand": {
+   "ru": "BONCHE",
+   "en": "BONCHE"
   },
-  {
-    "id": "maksik",
-    "folder": "cases/04-maksik",
-    "ru": {
-      "t": "Максик - Reels-формат на 90 млн+ просмотров",
-      "q": "Новый формат, который стабильно даёт органические охваты без бюджета на рекламу.",
-      "d": "Масштабируемый Reels-формат с узнаваемым героем-строителем, поставленный на поток: идеи, сценарии, съёмка на хромакее, AI-генерация, монтаж. Процесс выстроен так, что ролики выходят примерно в 5 раз быстрее.",
-      "r": "90 млн+ просмотров на формате. Лучший ролик - 84,1 млн, ещё один - 3,4 млн. +20 000 подписчиков за месяц."
-    },
-    "en": {
-      "t": "Maksik - a Reels format with 90M+ views",
-      "q": "A new format that brings steady organic reach without an ad budget.",
-      "d": "A scalable Reels format with a recognisable builder hero, run as a pipeline: ideas, scripts, green screen shoot, AI generation, edit. Videos come out about 5x faster.",
-      "r": "90M+ views on the format. Best Reel: 84.1M, another one 3.4M. +20,000 followers in a month."
-    },
-    "brand": {
-      "ru": "Максик",
-      "en": "Maksik"
-    },
-    "metric": {
-      "ru": "84,1 млн на одном Reels",
-      "en": "84.1M on one Reel"
-    },
-    "categories": [
-      "vfx"
-    ],
-    "poster": "cases/04-maksik/poster.jpg",
-    "gallery": [
-      "cases/04-maksik/maksik-1.jpg",
-      "cases/04-maksik/maksik-2.jpg",
-      "cases/04-maksik/maksik-cover.jpg"
-    ],
-    "videos": [
-      {
-        "src": "cases/04-maksik/video.mp4",
-        "poster": "cases/04-maksik/video.jpg",
-        "label": {
-          "ru": "Reels - 3,4 млн просмотров",
-          "en": "Reel - 3.4M views"
-        }
-      }
-    ],
-    "external": [
-      {
-        "url": "https://www.instagram.com/reel/DQLyRlSjDok/",
-        "ru": "Reels - 84,1 млн просмотров",
-        "en": "Reel - 84.1M views"
-      }
-    ]
+  "metric": {
+   "ru": "Опубликован брендом",
+   "en": "Published by the brand"
   },
-  {
-    "id": "ai-series",
-    "folder": "cases/05-ai-series",
-    "ru": {
-      "t": "AI-сериалы на YouTube Shorts - 48 млн просмотров в 2026",
-      "q": "Регулярно выпускать короткие ролики по трендовым сюжетам для YouTube-канала.",
-      "d": "Разобрал нишу, нашёл сюжеты, которые залетают, и собрал серийный вертикальный контент с постоянными AI-героями: одни и те же персонажи в любой позе и сцене. Держал высокий темп выпуска.",
-      "r": "48 млн просмотров в 2026, 83 200 часов просмотра (почти 9,5 лет непрерывного просмотра), +12 200 подписчиков."
-    },
-    "en": {
-      "t": "AI series on YouTube Shorts - 48M views in 2026",
-      "q": "Regular short videos on trending stories for a YouTube channel.",
-      "d": "Researched the niche, found the stories that take off and built serial vertical content with recurring AI characters: the same faces in any pose and scene. Kept a high release pace.",
-      "r": "48M views in 2026, 83,200 hours watched (almost 9.5 years of non-stop viewing), +12,200 subscribers."
-    },
-    "brand": {
-      "ru": "AI-сериалы",
-      "en": "AI series"
-    },
-    "metric": {
-      "ru": "48 млн просмотров в 2026",
-      "en": "48M views in 2026"
-    },
-    "categories": [
-      "series",
-      "characters"
-    ],
-    "poster": "cases/05-ai-series/poster.jpg",
-    "gallery": [
-      "cases/05-ai-series/kpop-1.jpg",
-      "cases/05-ai-series/kpop-2.jpg",
-      "cases/05-ai-series/kpop-3.jpg",
-      "cases/05-ai-series/kpop-cover.jpg"
-    ],
-    "videos": [
-      {
-        "src": "cases/05-ai-series/video.mp4",
-        "poster": "cases/05-ai-series/video.jpg"
-      },
-      {
-        "src": "cases/05-ai-series/video-02.mp4",
-        "poster": "cases/05-ai-series/video-02.jpg"
-      },
-      {
-        "src": "cases/05-ai-series/video-03.mp4",
-        "poster": "cases/05-ai-series/video-03.jpg"
-      },
-      {
-        "src": "cases/05-ai-series/video-04.mp4",
-        "poster": "cases/05-ai-series/video-04.jpg"
-      },
-      {
-        "src": "cases/05-ai-series/video-05.mp4",
-        "poster": "cases/05-ai-series/video-05.jpg"
-      },
-      {
-        "src": "cases/05-ai-series/video-06.mp4",
-        "poster": "cases/05-ai-series/video-06.jpg"
-      },
-      {
-        "src": "cases/05-ai-series/video-07.mp4",
-        "poster": "cases/05-ai-series/video-07.jpg"
-      },
-      {
-        "src": "cases/05-ai-series/video-08.mp4",
-        "poster": "cases/05-ai-series/video-08.jpg"
-      }
-    ]
+  "categories": [
+   "ads",
+   "characters"
+  ],
+  "poster": "cases/01-bonche/poster.jpg",
+  "gallery": [
+   "cases/01-bonche/bonche-1.jpg",
+   "cases/01-bonche/bonche-2.jpg",
+   "cases/01-bonche/bonche-3.jpg",
+   "cases/01-bonche/bonche-poster.jpg"
+  ],
+  "videos": [
+   {
+    "src": "cases/01-bonche/video.mp4",
+    "poster": "cases/01-bonche/video.jpg"
+   }
+  ]
+ },
+ {
+  "id": "uralsib",
+  "folder": "cases/02-uralsib",
+  "ru": {
+   "t": "Уралсиб Банк - анимационный рекламный ролик",
+   "q": "Необычная рекламная интеграция для банка в формате анимационного ролика для соцсетей.",
+   "d": "Придумал визуальный стиль, собрал историю про космос, ракеты и полярное сияние, сделал сцены и анимацию, озвучку, музыку и финальную сборку под соцсети.",
+   "r": "Законченный брендовый ролик, банк опубликовал его в своих соцсетях."
   },
-  {
-    "id": "zelenovka",
-    "folder": "cases/06-zelenovka",
-    "ru": {
-      "t": "Зелёновка - рубрика «А вы знали?»",
-      "q": "У бренда был UGC, но не было роликов, которые приводят новую аудиторию.",
-      "d": "Серийная рубрика с цепляющим фактом в первой секунде. Около 20 Reels, хуки тестировал вариациями на живой аудитории.",
-      "r": "Около 1 млн просмотров на серии, лучший ролик - 785 000, около +500 подписчиков."
-    },
-    "en": {
-      "t": "Zelenovka - \"Did you know?\" series",
-      "q": "The brand had UGC but no videos that bring in a new audience.",
-      "d": "A series with a fact hook in the first second. About 20 Reels, hooks tested in variations on a live audience.",
-      "r": "About 1M views on the series, best Reel 785,000, about +500 followers."
-    },
-    "brand": {
-      "ru": "Зелёновка",
-      "en": "Zelenovka"
-    },
-    "metric": {
-      "ru": "≈1 млн просмотров",
-      "en": "≈1M views"
-    },
-    "categories": [
-      "social"
-    ],
-    "poster": "cases/06-zelenovka/poster.jpg",
-    "gallery": [
-      "cases/06-zelenovka/zelenovka-1.jpg",
-      "cases/06-zelenovka/zelenovka-2.jpg",
-      "cases/06-zelenovka/zelenovka-3.jpg",
-      "cases/06-zelenovka/zelenovka-cover.jpg"
-    ],
-    "videos": []
+  "en": {
+   "t": "Uralsib Bank - animated ad",
+   "q": "An unusual ad integration for a bank, as an animated video for social media.",
+   "d": "Came up with the visual style and a story about space, rockets and the northern lights, made the scenes and animation, voice-over, music and final assembly for social.",
+   "r": "A finished brand video that the bank published on its social media."
   },
-  {
-    "id": "easy-payments",
-    "folder": "cases/07-easy-payments",
-    "ru": {
-      "t": "Easy Payments - AI-аватар вместо съёмочных дней",
-      "q": "Нужен регулярный экспертный видеоконтент, но спикер не может постоянно сниматься.",
-      "d": "По фото прототипа собрал цифрового двойника: внешность, голос, липсинг и подачу. Настроил формат экспертных роликов от сценария до обложки.",
-      "r": "Ролики выходят без студии и съёмочных дней, формат масштабируется на новые темы и новых аватаров."
-    },
-    "en": {
-      "t": "Easy Payments - an AI avatar instead of shoot days",
-      "q": "Regular expert videos were needed, but the speaker could not film all the time.",
-      "d": "Built a digital twin from photos of the prototype: look, voice, lip sync and delivery. Set up an expert video format from script to cover.",
-      "r": "Videos come out without a studio or shoot days, and the format scales to new topics and new avatars."
-    },
-    "brand": {
-      "ru": "Easy Payments",
-      "en": "Easy Payments"
-    },
-    "metric": {
-      "ru": "Без съёмочных дней",
-      "en": "No shoot days"
-    },
-    "categories": [
-      "avatars"
-    ],
-    "poster": "cases/07-easy-payments/poster.jpg",
-    "gallery": [
-      "cases/07-easy-payments/easy-payments-1.jpg",
-      "cases/07-easy-payments/easy-payments-2.jpg",
-      "cases/07-easy-payments/easy-payments-poster.jpg"
-    ],
-    "videos": [
-      {
-        "src": "cases/07-easy-payments/video.mp4",
-        "poster": "cases/07-easy-payments/video.jpg"
-      }
-    ]
+  "brand": {
+   "ru": "Уралсиб Банк",
+   "en": "Uralsib Bank"
   },
-  {
-    "id": "doston",
-    "folder": "cases/08-doston",
-    "ru": {
-      "t": "Doston - AI-VFX поверх реальных съёмок блогера",
-      "q": "Усилить обычные съёмки блогера wow-эффектами без тяжёлого CG-продакшна.",
-      "d": "Встраиваю AI в реальные кадры: меняю фон, дорисовываю объекты и детали, расширяю локации, усиливаю атмосферу. Объекты и фон заменяю через маски. Продукт бренда может стать огромным героем кадра.",
-      "r": "Готовый визуальный формат: wow-картинка из обычной съёмки, быстро и без бюджета на декорации."
-    },
-    "en": {
-      "t": "Doston - AI VFX over a blogger live footage",
-      "q": "Add wow effects to ordinary blogger footage without heavy CG.",
-      "d": "I bring AI into real shots: swap backgrounds, paint in objects and details, extend locations, build atmosphere. Objects and backgrounds are swapped with masks. The brand product can become a giant hero of the shot.",
-      "r": "A ready visual format: a wow picture from an ordinary shoot, fast and without a set budget."
-    },
-    "brand": {
-      "ru": "Doston",
-      "en": "Doston"
-    },
-    "metric": {
-      "ru": "AI поверх реальных съёмок",
-      "en": "AI over live footage"
-    },
-    "categories": [
-      "vfx"
-    ],
-    "poster": "cases/08-doston/poster.jpg",
-    "gallery": [
-      "cases/08-doston/doston-1.jpg",
-      "cases/08-doston/doston-2.jpg",
-      "cases/08-doston/doston-3.jpg",
-      "cases/08-doston/doston-4.jpg",
-      "cases/08-doston/doston-poster.jpg"
-    ],
-    "videos": [
-      {
-        "src": "cases/08-doston/video.mp4",
-        "poster": "cases/08-doston/video.jpg"
-      },
-      {
-        "src": "cases/08-doston/video-02.mp4",
-        "poster": "cases/08-doston/video-02.jpg"
-      },
-      {
-        "src": "cases/08-doston/video-03.mp4",
-        "poster": "cases/08-doston/video-03.jpg"
-      },
-      {
-        "src": "cases/08-doston/video-04.mp4",
-        "poster": "cases/08-doston/video-04.jpg"
-      }
-    ]
+  "metric": {
+   "ru": "В соцсетях банка",
+   "en": "On the bank’s social media"
   },
-  {
-    "id": "product-concepts",
-    "folder": "cases/09-product-concepts",
-    "concept": true,
-    "categories": [
-      "concepts",
-      "product"
-    ],
-    "brand": {
-      "ru": "Продуктовые визуалы",
-      "en": "Product visuals"
-    },
-    "metric": {
-      "ru": "Некоммерческий концепт",
-      "en": "Non-commercial concept"
-    },
-    "poster": "cases/09-product-concepts/poster.jpg",
-    "videos": [
-      {
-        "src": "cases/09-product-concepts/video.mp4",
-        "poster": "cases/09-product-concepts/video.jpg"
-      },
-      {
-        "src": "cases/09-product-concepts/video-02.mp4",
-        "poster": "cases/09-product-concepts/video-02.jpg"
-      },
-      {
-        "src": "cases/09-product-concepts/video-03.mp4",
-        "poster": "cases/09-product-concepts/video-03.jpg"
-      }
-    ],
-    "gallery": [
-      "cases/09-product-concepts/video.jpg",
-      "cases/09-product-concepts/video-02.jpg",
-      "cases/09-product-concepts/video-03.jpg"
-    ],
-    "ru": {
-      "t": "Продуктовые концепты - форма, свет и атмосфера",
-      "q": "Поэкспериментировать с визуальной подачей продукта.",
-      "d": "Собрал некоммерческие AI-концепты с акцентом на форму продукта, свет, фактуры и атмосферу.",
-      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
-    },
-    "en": {
-      "t": "Product concepts - form, light and atmosphere",
-      "q": "Explore visual approaches to product imagery.",
-      "d": "Created non-commercial AI concepts exploring product form, lighting, texture and atmosphere.",
-      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+  "categories": [
+   "animation"
+  ],
+  "poster": "cases/02-uralsib/poster.jpg",
+  "gallery": [
+   "cases/02-uralsib/uralsib-1.jpg",
+   "cases/02-uralsib/uralsib-2.jpg",
+   "cases/02-uralsib/uralsib-3.jpg",
+   "cases/02-uralsib/uralsib-poster.jpg"
+  ],
+  "videos": [
+   {
+    "src": "cases/02-uralsib/video.mp4",
+    "poster": "cases/02-uralsib/video.jpg"
+   }
+  ]
+ },
+ {
+  "id": "danmax",
+  "folder": "cases/03-danmax",
+  "ru": {
+   "t": "Данмакс - маскот бренда и AI-мультфильмы",
+   "q": "Бренду нужна была система контента, которая превращает охваты в заявки.",
+   "d": "Придумал и собрал маскота бренда - медведя в доспехах - и запустил с ним серию AI-мультфильмов для Shorts. Плюс реальные съёмки с AI/VFX-вставками (например, AI-интерфейс выбора плёнки в мастерской), обложки и графика.",
+   "r": "Около 1,2 млн просмотров по всем площадкам, около 65 заявок из лички и Telegram-чат-бота. Ролик с маскотом - 626 000 просмотров. YouTube - около 955 000 просмотров и +1 900 подписчиков."
+  },
+  "en": {
+   "t": "DANMAX - brand mascot and AI cartoons",
+   "q": "The brand needed a content system that turns reach into leads.",
+   "d": "Designed the brand mascot, a bear in armour, and launched a series of AI cartoons with it for Shorts. Plus live footage with AI/VFX inserts (for example an AI film-picker interface in the workshop), covers and graphics.",
+   "r": "About 1.2M views across platforms and about 65 leads from DMs and a Telegram bot. The mascot video got 626,000 views. YouTube: about 955,000 views and +1,900 subscribers."
+  },
+  "brand": {
+   "ru": "Данмакс",
+   "en": "DANMAX"
+  },
+  "metric": {
+   "ru": "≈1,2 млн просмотров",
+   "en": "≈1.2M views"
+  },
+  "categories": [
+   "characters",
+   "animation",
+   "vfx"
+  ],
+  "poster": "cases/03-danmax/poster.jpg",
+  "gallery": [
+   "cases/03-danmax/danmaks-1.jpg",
+   "cases/03-danmax/danmaks-2.jpg",
+   "cases/03-danmax/danmaks-3.jpg",
+   "cases/03-danmax/danmaks-4.jpg",
+   "cases/03-danmax/danmaks-5.jpg",
+   "cases/03-danmax/danmaks-6.jpg",
+   "cases/03-danmax/danmaks-7.jpg",
+   "cases/03-danmax/danmaks-8.jpg"
+  ],
+  "videos": [],
+  "external": [
+   {
+    "url": "https://www.instagram.com/danmax_technology/",
+    "ru": "Профиль бренда в Instagram",
+    "en": "Brand profile on Instagram"
+   }
+  ]
+ },
+ {
+  "id": "maksik",
+  "folder": "cases/04-maksik",
+  "ru": {
+   "t": "Максик - Reels-формат на 90 млн+ просмотров",
+   "q": "Новый формат, который стабильно даёт органические охваты без бюджета на рекламу.",
+   "d": "Масштабируемый Reels-формат с узнаваемым героем-строителем, поставленный на поток: идеи, сценарии, съёмка на хромакее, AI-генерация, монтаж. Процесс выстроен так, что ролики выходят примерно в 5 раз быстрее.",
+   "r": "90 млн+ просмотров на формате. Лучший ролик - 84,1 млн, ещё один - 3,4 млн. +20 000 подписчиков за месяц."
+  },
+  "en": {
+   "t": "Maksik - a Reels format with 90M+ views",
+   "q": "A new format that brings steady organic reach without an ad budget.",
+   "d": "A scalable Reels format with a recognisable builder hero, run as a pipeline: ideas, scripts, green screen shoot, AI generation, edit. Videos come out about 5x faster.",
+   "r": "90M+ views on the format. Best Reel: 84.1M, another one 3.4M. +20,000 followers in a month."
+  },
+  "brand": {
+   "ru": "Максик",
+   "en": "Maksik"
+  },
+  "metric": {
+   "ru": "84,1 млн на одном Reels",
+   "en": "84.1M on one Reel"
+  },
+  "categories": [
+   "vfx"
+  ],
+  "poster": "cases/04-maksik/poster.jpg",
+  "gallery": [
+   "cases/04-maksik/maksik-1.jpg",
+   "cases/04-maksik/maksik-2.jpg",
+   "cases/04-maksik/maksik-cover.jpg"
+  ],
+  "videos": [
+   {
+    "src": "cases/04-maksik/video.mp4",
+    "poster": "cases/04-maksik/video.jpg",
+    "label": {
+     "ru": "Reels - 3,4 млн просмотров",
+     "en": "Reel - 3.4M views"
     }
+   }
+  ],
+  "external": [
+   {
+    "url": "https://www.instagram.com/reel/DQLyRlSjDok/",
+    "ru": "Reels - 84,1 млн просмотров",
+    "en": "Reel - 84.1M views"
+   }
+  ]
+ },
+ {
+  "id": "ai-series",
+  "folder": "cases/05-ai-series",
+  "ru": {
+   "t": "AI-сериалы на YouTube Shorts - 48 млн просмотров в 2026",
+   "q": "Регулярно выпускать короткие ролики по трендовым сюжетам для YouTube-канала.",
+   "d": "Разобрал нишу, нашёл сюжеты, которые залетают, и собрал серийный вертикальный контент с постоянными AI-героями: одни и те же персонажи в любой позе и сцене. Держал высокий темп выпуска.",
+   "r": "48 млн просмотров в 2026, 83 200 часов просмотра (почти 9,5 лет непрерывного просмотра), +12 200 подписчиков."
   },
-  {
-    "id": "vfx-concepts",
-    "folder": "cases/10-vfx-concepts",
-    "concept": true,
-    "categories": [
-      "concepts",
-      "vfx"
-    ],
-    "brand": {
-      "ru": "Реальность с AI",
-      "en": "Reality with AI"
-    },
-    "metric": {
-      "ru": "Некоммерческий концепт",
-      "en": "Non-commercial concept"
-    },
-    "poster": "cases/10-vfx-concepts/poster.jpg",
-    "videos": [
-      {
-        "src": "cases/10-vfx-concepts/video.mp4",
-        "poster": "cases/10-vfx-concepts/video.jpg"
-      },
-      {
-        "src": "cases/10-vfx-concepts/video-02.mp4",
-        "poster": "cases/10-vfx-concepts/video-02.jpg"
-      },
-      {
-        "src": "cases/10-vfx-concepts/video-03.mp4",
-        "poster": "cases/10-vfx-concepts/video-03.jpg"
-      }
-    ],
-    "gallery": [
-      "cases/10-vfx-concepts/video.jpg",
-      "cases/10-vfx-concepts/video-02.jpg",
-      "cases/10-vfx-concepts/video-03.jpg"
-    ],
-    "ru": {
-      "t": "AI-VFX - эксперименты с реальностью",
-      "q": "Показать, как AI меняет привычную сцену.",
-      "d": "Собрал визуальные эксперименты: пульт меняет окружающий мир, гигантский объект появляется в городе, а хромакей превращается в сцену битвы.",
-      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
-    },
-    "en": {
-      "t": "AI VFX - experiments with reality",
-      "q": "Explore how AI can transform an everyday scene.",
-      "d": "Created visual experiments: a remote changes the world, a giant object appears in the city, and a green-screen shot becomes a battle scene.",
-      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
-    }
+  "en": {
+   "t": "AI series on YouTube Shorts - 48M views in 2026",
+   "q": "Regular short videos on trending stories for a YouTube channel.",
+   "d": "Researched the niche, found the stories that take off and built serial vertical content with recurring AI characters: the same faces in any pose and scene. Kept a high release pace.",
+   "r": "48M views in 2026, 83,200 hours watched (almost 9.5 years of non-stop viewing), +12,200 subscribers."
   },
-  {
-    "id": "music-concepts",
-    "folder": "cases/11-music-concepts",
-    "concept": true,
-    "categories": [
-      "concepts",
-      "music"
-    ],
-    "brand": {
-      "ru": "Музыкальные миры",
-      "en": "Music worlds"
-    },
-    "metric": {
-      "ru": "Некоммерческий концепт",
-      "en": "Non-commercial concept"
-    },
-    "poster": "cases/11-music-concepts/poster.jpg",
-    "videos": [
-      {
-        "src": "cases/11-music-concepts/video.mp4",
-        "poster": "cases/11-music-concepts/video.jpg"
-      },
-      {
-        "src": "cases/11-music-concepts/video-02.mp4",
-        "poster": "cases/11-music-concepts/video-02.jpg"
-      },
-      {
-        "src": "cases/11-music-concepts/video-03.mp4",
-        "poster": "cases/11-music-concepts/video-03.jpg"
-      }
-    ],
-    "gallery": [
-      "cases/11-music-concepts/video.jpg",
-      "cases/11-music-concepts/video-02.jpg",
-      "cases/11-music-concepts/video-03.jpg"
-    ],
-    "ru": {
-      "t": "Музыкальные AI-концепты - миры под настроение",
-      "q": "Исследовать визуальные идеи для музыкального видео.",
-      "d": "Собрал некоммерческие клиповые концепты с фантастическими локациями, персонажами и кинематографичной атмосферой.",
-      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
-    },
-    "en": {
-      "t": "Music video concepts - worlds and moods",
-      "q": "Explore visual ideas for music videos.",
-      "d": "Created non-commercial music video concepts with imaginative locations, characters and cinematic atmosphere.",
-      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
-    }
+  "brand": {
+   "ru": "AI-сериалы",
+   "en": "AI series"
   },
-  {
-    "id": "avatar-concept",
-    "folder": "cases/12-avatar-concept",
-    "concept": true,
-    "categories": [
-      "concepts",
-      "avatars"
-    ],
-    "brand": {
-      "ru": "Экспертный AI-аватар",
-      "en": "Expert AI avatar"
-    },
-    "metric": {
-      "ru": "Некоммерческий концепт",
-      "en": "Non-commercial concept"
-    },
-    "poster": "cases/12-avatar-concept/poster.jpg",
-    "videos": [
-      {
-        "src": "cases/12-avatar-concept/video.mp4",
-        "poster": "cases/12-avatar-concept/video.jpg"
-      }
-    ],
-    "gallery": [
-      "cases/12-avatar-concept/video.jpg"
-    ],
-    "ru": {
-      "t": "AI-аватар - концепт экспертного видео",
-      "q": "Показать визуальную подачу экспертного ролика с AI-аватаром.",
-      "d": "Собрал концепт со спикером-аватаром и тематическим видеорядом.",
-      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
-    },
-    "en": {
-      "t": "AI avatar - an expert video concept",
-      "q": "Explore an expert video format with an AI avatar.",
-      "d": "Created a concept combining an avatar presenter with topical visuals.",
-      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
-    }
+  "metric": {
+   "ru": "48 млн просмотров в 2026",
+   "en": "48M views in 2026"
   },
-  {
-    "id": "character-concepts",
-    "folder": "cases/13-character-concepts",
-    "concept": true,
-    "categories": [
-      "concepts",
-      "characters"
-    ],
-    "brand": {
-      "ru": "Герои вне шаблона",
-      "en": "Characters beyond the brief"
-    },
-    "metric": {
-      "ru": "Некоммерческий концепт",
-      "en": "Non-commercial concept"
-    },
-    "poster": "cases/13-character-concepts/poster.jpg",
-    "videos": [
-      {
-        "src": "cases/13-character-concepts/video.mp4",
-        "poster": "cases/13-character-concepts/video.jpg"
-      },
-      {
-        "src": "cases/13-character-concepts/video-02.mp4",
-        "poster": "cases/13-character-concepts/video-02.jpg"
-      },
-      {
-        "src": "cases/13-character-concepts/video-03.mp4",
-        "poster": "cases/13-character-concepts/video-03.jpg"
-      },
-      {
-        "src": "cases/13-character-concepts/video-04.mp4",
-        "poster": "cases/13-character-concepts/video-04.jpg"
-      }
-    ],
-    "gallery": [
-      "cases/13-character-concepts/video.jpg",
-      "cases/13-character-concepts/video-02.jpg",
-      "cases/13-character-concepts/video-03.jpg",
-      "cases/13-character-concepts/video-04.jpg"
-    ],
-    "ru": {
-      "t": "AI-персонажи - визуальные эксперименты",
-      "q": "Исследовать разных AI-героев, движения и повседневные сцены.",
-      "d": "Собрал концепты с персонажами в разных ситуациях: готовка, магазин, модельная подача и танец.",
-      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
-    },
-    "en": {
-      "t": "AI characters - visual experiments",
-      "q": "Explore AI characters, movement and everyday scenes.",
-      "d": "Created character concepts across different situations: cooking, shopping, fashion and dance.",
-      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
-    }
+  "categories": [
+   "series",
+   "characters"
+  ],
+  "poster": "cases/05-ai-series/poster.jpg",
+  "gallery": [
+   "cases/05-ai-series/kpop-1.jpg",
+   "cases/05-ai-series/kpop-2.jpg",
+   "cases/05-ai-series/kpop-3.jpg",
+   "cases/05-ai-series/kpop-cover.jpg"
+  ],
+  "videos": [
+   {
+    "src": "cases/05-ai-series/video.mp4",
+    "poster": "cases/05-ai-series/video.jpg"
+   },
+   {
+    "src": "cases/05-ai-series/video-02.mp4",
+    "poster": "cases/05-ai-series/video-02.jpg"
+   },
+   {
+    "src": "cases/05-ai-series/video-03.mp4",
+    "poster": "cases/05-ai-series/video-03.jpg"
+   },
+   {
+    "src": "cases/05-ai-series/video-04.mp4",
+    "poster": "cases/05-ai-series/video-04.jpg"
+   },
+   {
+    "src": "cases/05-ai-series/video-05.mp4",
+    "poster": "cases/05-ai-series/video-05.jpg"
+   },
+   {
+    "src": "cases/05-ai-series/video-06.mp4",
+    "poster": "cases/05-ai-series/video-06.jpg"
+   },
+   {
+    "src": "cases/05-ai-series/video-07.mp4",
+    "poster": "cases/05-ai-series/video-07.jpg"
+   },
+   {
+    "src": "cases/05-ai-series/video-08.mp4",
+    "poster": "cases/05-ai-series/video-08.jpg"
+   }
+  ]
+ },
+ {
+  "id": "zelenovka",
+  "folder": "cases/06-zelenovka",
+  "ru": {
+   "t": "Зелёновка - рубрика «А вы знали?»",
+   "q": "У бренда был UGC, но не было роликов, которые приводят новую аудиторию.",
+   "d": "Серийная рубрика с цепляющим фактом в первой секунде. Около 20 Reels, хуки тестировал вариациями на живой аудитории.",
+   "r": "Около 1 млн просмотров на серии, лучший ролик - 785 000, около +500 подписчиков."
   },
-  {
-    "id": "cinematic-concept",
-    "folder": "cases/14-cinematic-concept",
-    "concept": true,
-    "categories": [
-      "concepts",
-      "characters"
-    ],
-    "brand": {
-      "ru": "Киношный разгон",
-      "en": "Cinematic experiment"
-    },
-    "metric": {
-      "ru": "Некоммерческий концепт",
-      "en": "Non-commercial concept"
-    },
-    "poster": "cases/14-cinematic-concept/poster.jpg",
-    "videos": [
-      {
-        "src": "cases/14-cinematic-concept/video.mp4",
-        "poster": "cases/14-cinematic-concept/video.jpg"
-      }
-    ],
-    "gallery": [
-      "cases/14-cinematic-concept/video.jpg"
-    ],
-    "ru": {
-      "t": "AI-кино - концепт футуристического мира",
-      "q": "Исследовать фантастическую историю в коротком видео.",
-      "d": "Собрал некоммерческий визуальный концепт: переход из обычного пространства в футуристический город и динамичные сцены с мотоциклом.",
-      "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
-    },
-    "en": {
-      "t": "AI cinema - a futuristic world concept",
-      "q": "Explore a science-fiction story in a short video.",
-      "d": "Created a non-commercial visual concept that moves from an everyday setting into a futuristic city and dynamic motorcycle scenes.",
-      "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
-    }
+  "en": {
+   "t": "Zelenovka - \"Did you know?\" series",
+   "q": "The brand had UGC but no videos that bring in a new audience.",
+   "d": "A series with a fact hook in the first second. About 20 Reels, hooks tested in variations on a live audience.",
+   "r": "About 1M views on the series, best Reel 785,000, about +500 followers."
+  },
+  "brand": {
+   "ru": "Зелёновка",
+   "en": "Zelenovka"
+  },
+  "metric": {
+   "ru": "≈1 млн просмотров",
+   "en": "≈1M views"
+  },
+  "categories": [
+   "social"
+  ],
+  "poster": "cases/06-zelenovka/poster.jpg",
+  "gallery": [
+   "cases/06-zelenovka/zelenovka-1.jpg",
+   "cases/06-zelenovka/zelenovka-2.jpg",
+   "cases/06-zelenovka/zelenovka-3.jpg"
+  ],
+  "videos": []
+ },
+ {
+  "id": "easy-payments",
+  "folder": "cases/07-easy-payments",
+  "ru": {
+   "t": "Easy Payments - AI-аватар вместо съёмочных дней",
+   "q": "Нужен регулярный экспертный видеоконтент, но спикер не может постоянно сниматься.",
+   "d": "По фото прототипа собрал цифрового двойника: внешность, голос, липсинг и подачу. Настроил формат экспертных роликов от сценария до обложки.",
+   "r": "Ролики выходят без студии и съёмочных дней, формат масштабируется на новые темы и новых аватаров."
+  },
+  "en": {
+   "t": "Easy Payments - an AI avatar instead of shoot days",
+   "q": "Regular expert videos were needed, but the speaker could not film all the time.",
+   "d": "Built a digital twin from photos of the prototype: look, voice, lip sync and delivery. Set up an expert video format from script to cover.",
+   "r": "Videos come out without a studio or shoot days, and the format scales to new topics and new avatars."
+  },
+  "brand": {
+   "ru": "Easy Payments",
+   "en": "Easy Payments"
+  },
+  "metric": {
+   "ru": "Без съёмочных дней",
+   "en": "No shoot days"
+  },
+  "categories": [
+   "avatars"
+  ],
+  "poster": "cases/07-easy-payments/poster.jpg",
+  "gallery": [
+   "cases/07-easy-payments/easy-payments-1.jpg",
+   "cases/07-easy-payments/easy-payments-2.jpg",
+   "cases/07-easy-payments/easy-payments-poster.jpg"
+  ],
+  "videos": [
+   {
+    "src": "cases/07-easy-payments/video.mp4",
+    "poster": "cases/07-easy-payments/video.jpg"
+   }
+  ]
+ },
+ {
+  "id": "doston",
+  "folder": "cases/08-doston",
+  "ru": {
+   "t": "Doston - AI-VFX поверх реальных съёмок блогера",
+   "q": "Усилить обычные съёмки блогера wow-эффектами без тяжёлого CG-продакшна.",
+   "d": "Встраиваю AI в реальные кадры: меняю фон, дорисовываю объекты и детали, расширяю локации, усиливаю атмосферу. Объекты и фон заменяю через маски. Продукт бренда может стать огромным героем кадра.",
+   "r": "Готовый визуальный формат: wow-картинка из обычной съёмки, быстро и без бюджета на декорации."
+  },
+  "en": {
+   "t": "Doston - AI VFX over a blogger live footage",
+   "q": "Add wow effects to ordinary blogger footage without heavy CG.",
+   "d": "I bring AI into real shots: swap backgrounds, paint in objects and details, extend locations, build atmosphere. Objects and backgrounds are swapped with masks. The brand product can become a giant hero of the shot.",
+   "r": "A ready visual format: a wow picture from an ordinary shoot, fast and without a set budget."
+  },
+  "brand": {
+   "ru": "Doston",
+   "en": "Doston"
+  },
+  "metric": {
+   "ru": "AI поверх реальных съёмок",
+   "en": "AI over live footage"
+  },
+  "categories": [
+   "vfx"
+  ],
+  "poster": "cases/08-doston/poster.jpg",
+  "gallery": [
+   "cases/08-doston/doston-1.jpg",
+   "cases/08-doston/doston-2.jpg",
+   "cases/08-doston/doston-3.jpg",
+   "cases/08-doston/doston-4.jpg",
+   "cases/08-doston/doston-poster.jpg"
+  ],
+  "videos": [
+   {
+    "src": "cases/08-doston/video.mp4",
+    "poster": "cases/08-doston/video.jpg"
+   },
+   {
+    "src": "cases/08-doston/video-02.mp4",
+    "poster": "cases/08-doston/video-02.jpg"
+   },
+   {
+    "src": "cases/08-doston/video-03.mp4",
+    "poster": "cases/08-doston/video-03.jpg"
+   },
+   {
+    "src": "cases/08-doston/video-04.mp4",
+    "poster": "cases/08-doston/video-04.jpg"
+   }
+  ]
+ },
+ {
+  "id": "product-concepts",
+  "folder": "cases/09-product-concepts",
+  "concept": true,
+  "categories": [
+   "concepts",
+   "product"
+  ],
+  "brand": {
+   "ru": "Продуктовые визуалы",
+   "en": "Product visuals"
+  },
+  "metric": {
+   "ru": "Некоммерческий концепт",
+   "en": "Non-commercial concept"
+  },
+  "poster": "cases/09-product-concepts/poster.jpg",
+  "videos": [
+   {
+    "src": "cases/09-product-concepts/video.mp4",
+    "poster": "cases/09-product-concepts/video.jpg"
+   },
+   {
+    "src": "cases/09-product-concepts/video-02.mp4",
+    "poster": "cases/09-product-concepts/video-02.jpg"
+   },
+   {
+    "src": "cases/09-product-concepts/video-03.mp4",
+    "poster": "cases/09-product-concepts/video-03.jpg"
+   }
+  ],
+  "gallery": [
+   "cases/09-product-concepts/video.jpg",
+   "cases/09-product-concepts/video-02.jpg",
+   "cases/09-product-concepts/video-03.jpg"
+  ],
+  "ru": {
+   "t": "Продуктовые концепты - форма, свет и атмосфера",
+   "q": "Поэкспериментировать с визуальной подачей продукта.",
+   "d": "Собрал некоммерческие AI-концепты с акцентом на форму продукта, свет, фактуры и атмосферу.",
+   "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+  },
+  "en": {
+   "t": "Product concepts - form, light and atmosphere",
+   "q": "Explore visual approaches to product imagery.",
+   "d": "Created non-commercial AI concepts exploring product form, lighting, texture and atmosphere.",
+   "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
   }
+ },
+ {
+  "id": "vfx-concepts",
+  "folder": "cases/10-vfx-concepts",
+  "concept": true,
+  "categories": [
+   "concepts",
+   "vfx"
+  ],
+  "brand": {
+   "ru": "Реальность с AI",
+   "en": "Reality with AI"
+  },
+  "metric": {
+   "ru": "Некоммерческий концепт",
+   "en": "Non-commercial concept"
+  },
+  "poster": "cases/10-vfx-concepts/poster.jpg",
+  "videos": [
+   {
+    "src": "cases/10-vfx-concepts/video.mp4",
+    "poster": "cases/10-vfx-concepts/video.jpg"
+   },
+   {
+    "src": "cases/10-vfx-concepts/video-02.mp4",
+    "poster": "cases/10-vfx-concepts/video-02.jpg"
+   },
+   {
+    "src": "cases/10-vfx-concepts/video-03.mp4",
+    "poster": "cases/10-vfx-concepts/video-03.jpg"
+   }
+  ],
+  "gallery": [
+   "cases/10-vfx-concepts/video.jpg",
+   "cases/10-vfx-concepts/video-02.jpg",
+   "cases/10-vfx-concepts/video-03.jpg"
+  ],
+  "ru": {
+   "t": "AI-VFX - эксперименты с реальностью",
+   "q": "Показать, как AI меняет привычную сцену.",
+   "d": "Собрал визуальные эксперименты: пульт меняет окружающий мир, гигантский объект появляется в городе, а хромакей превращается в сцену битвы.",
+   "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+  },
+  "en": {
+   "t": "AI VFX - experiments with reality",
+   "q": "Explore how AI can transform an everyday scene.",
+   "d": "Created visual experiments: a remote changes the world, a giant object appears in the city, and a green-screen shot becomes a battle scene.",
+   "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+  }
+ },
+ {
+  "id": "music-concepts",
+  "folder": "cases/11-music-concepts",
+  "concept": true,
+  "categories": [
+   "concepts",
+   "music"
+  ],
+  "brand": {
+   "ru": "Музыкальные миры",
+   "en": "Music worlds"
+  },
+  "metric": {
+   "ru": "Некоммерческий концепт",
+   "en": "Non-commercial concept"
+  },
+  "poster": "cases/11-music-concepts/poster.jpg",
+  "videos": [
+   {
+    "src": "cases/11-music-concepts/video.mp4",
+    "poster": "cases/11-music-concepts/video.jpg"
+   },
+   {
+    "src": "cases/11-music-concepts/video-02.mp4",
+    "poster": "cases/11-music-concepts/video-02.jpg"
+   },
+   {
+    "src": "cases/11-music-concepts/video-03.mp4",
+    "poster": "cases/11-music-concepts/video-03.jpg"
+   }
+  ],
+  "gallery": [
+   "cases/11-music-concepts/video.jpg",
+   "cases/11-music-concepts/video-02.jpg",
+   "cases/11-music-concepts/video-03.jpg"
+  ],
+  "ru": {
+   "t": "Музыкальные AI-концепты - миры под настроение",
+   "q": "Исследовать визуальные идеи для музыкального видео.",
+   "d": "Собрал некоммерческие клиповые концепты с фантастическими локациями, персонажами и кинематографичной атмосферой.",
+   "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+  },
+  "en": {
+   "t": "Music video concepts - worlds and moods",
+   "q": "Explore visual ideas for music videos.",
+   "d": "Created non-commercial music video concepts with imaginative locations, characters and cinematic atmosphere.",
+   "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+  }
+ },
+ {
+  "id": "avatar-concept",
+  "folder": "cases/12-avatar-concept",
+  "concept": true,
+  "categories": [
+   "concepts",
+   "avatars"
+  ],
+  "brand": {
+   "ru": "Экспертный AI-аватар",
+   "en": "Expert AI avatar"
+  },
+  "metric": {
+   "ru": "Некоммерческий концепт",
+   "en": "Non-commercial concept"
+  },
+  "poster": "cases/12-avatar-concept/poster.jpg",
+  "videos": [
+   {
+    "src": "cases/12-avatar-concept/video.mp4",
+    "poster": "cases/12-avatar-concept/video.jpg"
+   }
+  ],
+  "gallery": [
+   "cases/12-avatar-concept/video.jpg"
+  ],
+  "ru": {
+   "t": "AI-аватар - концепт экспертного видео",
+   "q": "Показать визуальную подачу экспертного ролика с AI-аватаром.",
+   "d": "Собрал концепт со спикером-аватаром и тематическим видеорядом.",
+   "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+  },
+  "en": {
+   "t": "AI avatar - an expert video concept",
+   "q": "Explore an expert video format with an AI avatar.",
+   "d": "Created a concept combining an avatar presenter with topical visuals.",
+   "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+  }
+ },
+ {
+  "id": "character-concepts",
+  "folder": "cases/13-character-concepts",
+  "concept": true,
+  "categories": [
+   "concepts",
+   "characters"
+  ],
+  "brand": {
+   "ru": "Герои вне шаблона",
+   "en": "Characters beyond the brief"
+  },
+  "metric": {
+   "ru": "Некоммерческий концепт",
+   "en": "Non-commercial concept"
+  },
+  "poster": "cases/13-character-concepts/poster.jpg",
+  "videos": [
+   {
+    "src": "cases/13-character-concepts/video.mp4",
+    "poster": "cases/13-character-concepts/video.jpg"
+   },
+   {
+    "src": "cases/13-character-concepts/video-02.mp4",
+    "poster": "cases/13-character-concepts/video-02.jpg"
+   },
+   {
+    "src": "cases/13-character-concepts/video-03.mp4",
+    "poster": "cases/13-character-concepts/video-03.jpg"
+   },
+   {
+    "src": "cases/13-character-concepts/video-04.mp4",
+    "poster": "cases/13-character-concepts/video-04.jpg"
+   }
+  ],
+  "gallery": [
+   "cases/13-character-concepts/video.jpg",
+   "cases/13-character-concepts/video-02.jpg",
+   "cases/13-character-concepts/video-03.jpg",
+   "cases/13-character-concepts/video-04.jpg"
+  ],
+  "ru": {
+   "t": "AI-персонажи - визуальные эксперименты",
+   "q": "Исследовать разных AI-героев, движения и повседневные сцены.",
+   "d": "Собрал концепты с персонажами в разных ситуациях: готовка, магазин, модельная подача и танец.",
+   "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+  },
+  "en": {
+   "t": "AI characters - visual experiments",
+   "q": "Explore AI characters, movement and everyday scenes.",
+   "d": "Created character concepts across different situations: cooking, shopping, fashion and dance.",
+   "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+  }
+ },
+ {
+  "id": "cinematic-concept",
+  "folder": "cases/14-cinematic-concept",
+  "concept": true,
+  "categories": [
+   "concepts",
+   "characters"
+  ],
+  "brand": {
+   "ru": "Киношный разгон",
+   "en": "Cinematic experiment"
+  },
+  "metric": {
+   "ru": "Некоммерческий концепт",
+   "en": "Non-commercial concept"
+  },
+  "poster": "cases/14-cinematic-concept/poster.jpg",
+  "videos": [
+   {
+    "src": "cases/14-cinematic-concept/video.mp4",
+    "poster": "cases/14-cinematic-concept/video.jpg"
+   }
+  ],
+  "gallery": [
+   "cases/14-cinematic-concept/video.jpg"
+  ],
+  "ru": {
+   "t": "AI-кино - концепт футуристического мира",
+   "q": "Исследовать фантастическую историю в коротком видео.",
+   "d": "Собрал некоммерческий визуальный концепт: переход из обычного пространства в футуристический город и динамичные сцены с мотоциклом.",
+   "r": "Творческий эксперимент для демонстрации визуала. Не коммерческий заказ и не рекламная кампания бренда."
+  },
+  "en": {
+   "t": "AI cinema - a futuristic world concept",
+   "q": "Explore a science-fiction story in a short video.",
+   "d": "Created a non-commercial visual concept that moves from an everyday setting into a futuristic city and dynamic motorcycle scenes.",
+   "r": "A creative experiment to showcase the visuals. Not a commercial commission or a brand advertising campaign."
+  }
+ }
 ]
