@@ -9,7 +9,7 @@ const copy = {
     stat1: '140 млн+', stat1Label: 'просмотров на роликах, где я делал AI-часть', stat2: '84,1 млн', stat2Label: 'просмотров на одном Reels',
     stat3: '48 млн', stat3Label: 'YouTube Shorts за 2026 год', stat4Label: 'брендов: банки, ритейл, финтех, FMCG',
     brandsLabel: '01 / Бренды', brandsTitle: 'Делал креативы<br><span class="soft">для брендов</span>',
-    brandsIntro: 'Ролики для этих брендов принадлежат самим брендам, поэтому их нет в открытом доступе. С удовольствием покажу их и расскажу о процессе на созвоне. Открытые проекты - ниже.', onCall: 'покажу на созвоне',
+    brandsIntro: 'Многие проекты под NDA. Подробнее о задачах, решениях и процессе расскажу на собеседовании.',
     publicLbl: 'Открытые проекты:',
     selected: '02 / Кейсы', works: 'Публичные<br><span class="soft">проекты</span>', workIntro: 'Открой кейс - внутри видео, задача, что сделал и результат.',
     labLabel: '03 / Концепт-лаборатория', labTitle: 'Свободные<br><span class="soft">эксперименты</span>',
@@ -33,7 +33,7 @@ const copy = {
     stat1: '140M+', stat1Label: 'views on videos where I did the AI work', stat2: '84.1M', stat2Label: 'views on a single Reel',
     stat3: '48M', stat3Label: 'YouTube Shorts views in 2026', stat4Label: 'brands: banking, retail, fintech, FMCG',
     brandsLabel: '01 / Brands', brandsTitle: 'Brands I have<br><span class="soft">made creatives for</span>',
-    brandsIntro: 'The videos for these brands belong to the brands, so they are not public. Happy to show them and walk you through the process on a call. Open projects are below.', onCall: 'shown on a call',
+    brandsIntro: 'Many projects are under NDA. I can discuss the briefs, solutions and creative process in more detail during an interview.',
     publicLbl: 'Open projects:',
     selected: '02 / Work', works: 'Public<br><span class="soft">projects</span>', workIntro: 'Open a case to see the video, the task, what I did and the result.',
     labLabel: '03 / Concept lab', labTitle: 'Free<br><span class="soft">experiments</span>',
@@ -59,7 +59,6 @@ const nda = [['Пятёрочка', 'Pyaterochka', 'маскоты, реализ
 const tools = ['Higgsfield', 'Kling', 'Veo', 'Seedance', 'Sora', 'Runway', 'Midjourney', 'Nano Banana', 'Flux', 'ComfyUI', 'HeyGen', 'ElevenLabs', 'Suno', 'Premiere Pro', 'After Effects', 'CapCut', 'Photoshop', 'ChatGPT', 'Claude'];
 // client case order and bento sizes (4 columns on desktop, 2 on tablet and phone)
 const layout = [['uralsib', 'big'], ['bonche', 'big'], ['danmax', 'tall'], ['zelenovka', 'tall'], ['doston', 'tall'], ['easy-payments', 'tall'], ['maksik', 'big'], ['ai-series', 'big']];
-const lock = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1 6c1.3-2.3 3-3.5 5-3.5S9.7 3.7 11 6c-1.3 2.3-3 3.5-5 3.5S2.3 8.3 1 6z" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="6" cy="6" r="1.7" fill="currentColor"/></svg>';
 
 const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -80,7 +79,7 @@ function translate() {
   $$('.resume').forEach((e) => (e.href = `assets/resume-${lang}.pdf`));
   const b = $('#language'); b.textContent = lang === 'ru' ? 'EN' : 'RU'; b.setAttribute('aria-label', lang === 'ru' ? 'Switch to English' : 'Переключить на русский');
   $('#close-dialog').setAttribute('aria-label', T('close'));
-  const chip = (n) => `<div class="brand-chip glass"><span class="lock">${lock}${T('onCall')}</span><b>${n[L()]}<span class="nda-what">${n[L() + 2]}</span></b></div>`;
+  const chip = (n) => `<div class="brand-chip glass"><b>${n[L()]}<span class="nda-what">${n[L() + 2]}</span></b></div>`;
   $('#nda-track').innerHTML = nda.map(chip).join('');
   $('#tools').innerHTML = `<span class="lbl">${T('toolsLbl')}</span>` + tools.map((t) => `<span class="t">${t}</span>`).join('');
   render(); runCounters();

@@ -106,11 +106,9 @@ section{padding-block:72px}
 /* ---------- brands ---------- */
 .brands{padding-bottom:40px}
 .brands-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:28px}
-.brand-chip{display:flex;flex-direction:column;align-items:flex-start;gap:12px;border-radius:24px;padding:22px;min-width:0}
+.brand-chip{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;border-radius:24px;padding:26px 22px;min-width:0}
 .brand-chip b{font-size:clamp(22px,2.3vw,32px);font-weight:400;letter-spacing:-.04em;line-height:1.15}
-.lock{display:inline-flex;align-items:center;gap:6px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);background:rgba(255,255,255,.75);border-radius:99px;padding:7px 11px;box-shadow:inset 0 0 0 1px var(--hair)}
-.lock svg{width:11px;height:11px}
-.nda-what{display:block;font-size:13px;color:var(--ink2);font-weight:400;letter-spacing:0;margin-top:2px}
+.nda-what{display:block;font-size:13px;color:var(--ink2);font-weight:400;letter-spacing:0;line-height:1.45;margin-top:8px}
 .public-brands{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
 .public-brands .lbl{font-size:13px;color:var(--ink2);margin-right:8px}
 .public-brands button{border-radius:99px;padding:12px 18px;font-size:15px;font-weight:450;transition:transform .35s var(--spring)}
@@ -298,7 +296,6 @@ body.modal-open{overflow:hidden}
 .knob{background:radial-gradient(circle at 35% 30%,#fff,rgba(255,255,255,.55) 60%),var(--acc)}
 .steps article:hover .knob{color:var(--ink)}
 .facts h3 i{background:var(--acc);color:#fff}
-.lock{background:linear-gradient(rgba(255,255,255,.85),rgba(255,255,255,.85)) padding-box,var(--acc) border-box;border:1px solid transparent;box-shadow:none}
 .contact-in::before{background:radial-gradient(closest-side,rgba(255,111,145,.35),transparent);right:-15%;top:-70%}
 .contact-in::after{content:'';position:absolute;left:-15%;bottom:-80%;width:70%;height:150%;background:radial-gradient(closest-side,rgba(98,210,191,.25),transparent);filter:blur(20px);pointer-events:none}
 .contact h2 .soft{background:linear-gradient(100deg,#ffb48c,#ff8fa8 40%,#c5a8ff 80%);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -308,5 +305,5 @@ body.modal-open{overflow:hidden}
 body{cursor:default}
 a,button,a *,button *{cursor:pointer}
 @media(max-width:1080px){.concept-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){.brands-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.brand-chip{padding:16px 12px;border-radius:18px}.brand-chip b{font-size:21px}.brand-chip .lock{font-size:8px;letter-spacing:.03em;padding:6px}.nda-what{font-size:11px;line-height:1.45;margin-top:8px}.concept-grid{gap:12px}}
+@media(max-width:760px){.brands-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.brand-chip{padding:16px 12px;border-radius:18px}.brand-chip b{font-size:21px}.nda-what{font-size:11px;line-height:1.45;margin-top:8px}.concept-grid{gap:12px}}
 @media(max-width:420px){.concept-grid{grid-template-columns:1fr}.concept-grid .card{height:380px}.brand-chip b{font-size:19px;letter-spacing:-.04em}}
