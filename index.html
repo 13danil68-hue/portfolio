@@ -12,8 +12,8 @@
 <meta property="og:image" content="assets/photo.jpg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="assets/fonts/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="style.css?v=3.1">
-<script src="app.js?v=3.1" defer></script>
+<link rel="stylesheet" href="style.css?v=4">
+<script src="app.js?v=4" defer></script>
 </head>
 <body>
 <a class="skip" href="#work">К кейсам / Skip to work</a>
@@ -83,7 +83,7 @@
       <div><p class="eyebrow" data-i="brandsLabel">01 / Бренды</p><h2 id="brands-title" data-i="brandsTitle">Делал креативы<br><span class="soft">для брендов</span></h2></div>
       <p data-i="brandsIntro"></p>
     </div>
-    <div class="marquee reveal" aria-label="Бренды"><div class="track" id="nda-track"></div></div>
+    <div class="wrap brands-grid" id="nda-track" aria-label="Бренды"></div>
     <div class="wrap public-brands reveal" id="public-brands"></div>
   </section>
 
@@ -101,8 +101,7 @@
       <div><p class="eyebrow" data-i="labLabel">03 / Концепт-лаборатория</p><h2 id="lab-title" data-i="labTitle">Свободные<br><span class="soft">эксперименты</span></h2></div>
       <p data-i="labIntro">Некоммерческие концепты, не заказы брендов. Здесь пробую новые модели, стили и приёмы.</p>
     </div>
-    <div class="lab-tabs glass reveal" id="lab-tabs" role="tablist"></div>
-    <div class="lab-panel reveal" id="lab-panel"></div>
+    <div class="concept-grid" id="lab-grid"></div>
   </section>
 
   <section class="process wrap" aria-labelledby="process-title">

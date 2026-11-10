@@ -58,7 +58,7 @@ const nda = [['Пятёрочка', 'Pyaterochka', 'маскоты, реализ
   ['Маркетплейсы', 'Marketplaces', 'карточки товаров', 'product cards']];
 const tools = ['Higgsfield', 'Kling', 'Veo', 'Seedance', 'Sora', 'Runway', 'Midjourney', 'Nano Banana', 'Flux', 'ComfyUI', 'HeyGen', 'ElevenLabs', 'Suno', 'Premiere Pro', 'After Effects', 'CapCut', 'Photoshop', 'ChatGPT', 'Claude'];
 // client case order and bento sizes (4 columns on desktop, 2 on tablet and phone)
-const layout = [['maksik', 'big'], ['ai-series', 'tall'], ['danmax', 'tall'], ['bonche', 'big'], ['uralsib', 'tall'], ['doston', 'tall'], ['easy-payments', 'wide'], ['zelenovka', 'wide']];
+const layout = [['uralsib', 'big'], ['bonche', 'big'], ['danmax', 'tall'], ['zelenovka', 'tall'], ['doston', 'tall'], ['easy-payments', 'tall'], ['maksik', 'big'], ['ai-series', 'big']];
 const lock = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1 6c1.3-2.3 3-3.5 5-3.5S9.7 3.7 11 6c-1.3 2.3-3 3.5-5 3.5S2.3 8.3 1 6z" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="6" cy="6" r="1.7" fill="currentColor"/></svg>';
 
 const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -66,7 +66,7 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches, hover = matchMedia('(hover: hover) and (pointer: fine)').matches;
 const L = () => (lang === 'ru' ? 0 : 1), T = (k) => copy[lang][k], cat = (c) => c.categories.filter((k) => k !== 'concepts').map((k) => categories[k][L()]).join(' / ');
 
-let lang = 'ru', cases = [], active = null, opener = null, labTab = null;
+let lang = 'ru', cases = [], active = null, opener = null;
 (() => {
   const q = new URLSearchParams(location.search).get('lang');
   let saved = null; try { saved = localStorage.getItem('portfolio-language'); } catch {}
@@ -81,7 +81,7 @@ function translate() {
   const b = $('#language'); b.textContent = lang === 'ru' ? 'EN' : 'RU'; b.setAttribute('aria-label', lang === 'ru' ? 'Switch to English' : 'Переключить на русский');
   $('#close-dialog').setAttribute('aria-label', T('close'));
   const chip = (n) => `<div class="brand-chip glass"><span class="lock">${lock}${T('onCall')}</span><b>${n[L()]}<span class="nda-what">${n[L() + 2]}</span></b></div>`;
-  $('#nda-track').innerHTML = nda.map(chip).join('') + nda.map(chip).join('').replace(/class="brand-chip/g, 'aria-hidden="true" class="brand-chip');
+  $('#nda-track').innerHTML = nda.map(chip).join('');
   $('#tools').innerHTML = `<span class="lbl">${T('toolsLbl')}</span>` + tools.map((t) => `<span class="t">${t}</span>`).join('');
   render(); runCounters();
   if (active) renderCase(active.c, active.v, true);
@@ -100,20 +100,12 @@ function render() {
       <div class="info glass"><p class="fmt">${esc(cat(c))}</p><h3>${esc(c.brand[lang])}</h3><span class="metric">${esc(c.metric[lang])}</span></div></button>`;
   }).join('');
   const concepts = cases.filter((c) => c.concept);
-  if (!labTab || !concepts.find((c) => c.id === labTab)) labTab = concepts[0]?.id;
-  $('#lab-tabs').innerHTML = concepts.map((c) => `<button role="tab" aria-selected="${c.id === labTab}" data-tab="${c.id}">${esc(c.brand[lang])}</button>`).join('');
-  renderLab(false);
+  $('#lab-grid').innerHTML = concepts.map((c, i) => `<button class="card reveal" data-id="${c.id}" aria-label="${T('watch')}: ${esc(c.brand[lang])}">
+    <img class="cover" src="${c.poster}" alt="" loading="lazy">
+    <div class="top"><span class="num">${String(i + 1).padStart(2, '0')}</span><span class="play" aria-hidden="true">▶</span></div>
+    <div class="info glass"><p class="fmt">${T('kindConcept')}</p><h3>${esc(c.brand[lang])}</h3><span class="metric">${T('labBadge')}</span></div>
+  </button>`).join('');
   observe();
-}
-
-function renderLab(animate) {
-  const c = cases.find((x) => x.id === labTab); if (!c) return;
-  const p = $('#lab-panel');
-  p.innerHTML = `<div class="lab-note glass"><span class="badge">${T('labBadge')}</span><h3>${esc(c[lang].t)}</h3><p>${esc(c[lang].d)}</p>
-    <button class="button dark" data-open="${c.id}" data-v="0">${T('labOpen')}</button></div>
-    <div class="lab-reel">${c.videos.map((v, i) => `<button class="lab-tile" data-open="${c.id}" data-v="${i}" aria-label="${T('clip')} ${i + 1}: ${esc(c.brand[lang])}">
-      <img src="${v.poster || c.poster}" alt="" loading="lazy"><span class="play" aria-hidden="true">▶</span></button>`).join('')}</div>`;
-  if (animate) { p.classList.remove('swap'); void p.offsetWidth; p.classList.add('swap'); }
 }
 
 // ---------- case dialog ----------
@@ -184,7 +176,6 @@ $('#close-dialog').addEventListener('click', closeCase);
 document.addEventListener('click', (e) => {
   const o = e.target.closest('[data-open]'); if (o) return openCase(o.dataset.open, Number(o.dataset.v || 0));
   const c = e.target.closest('[data-id]'); if (c && !c.closest('dialog')) return openCase(c.dataset.id);
-  const t = e.target.closest('[data-tab]'); if (t) { labTab = t.dataset.tab; $$('[data-tab]').forEach((x) => x.setAttribute('aria-selected', x === t)); renderLab(true); }
 });
 $('#language').addEventListener('click', () => {
   lang = lang === 'ru' ? 'en' : 'ru';
@@ -246,7 +237,7 @@ if (!reelBlocked) {
 if (!reduced) { let raf = 0; addEventListener('scroll', () => { if (raf) return; raf = requestAnimationFrame(() => { raf = 0; document.documentElement.style.setProperty('--scroll', Math.min(1, scrollY / (document.body.scrollHeight - innerHeight || 1)).toFixed(3)); }); }, { passive: true }); }
 
 translate(); observe();
-fetch('cases.json?v=3').then((r) => { if (!r.ok) throw Error(r.status); return r.json(); }).then((data) => {
+fetch('cases.json?v=4').then((r) => { if (!r.ok) throw Error(r.status); return r.json(); }).then((data) => {
   cases = data; render();
   if (location.hash.startsWith('#case-')) openCase(location.hash.slice(6));
 }).catch(() => ($('#load-error').hidden = false));

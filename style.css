@@ -105,12 +105,9 @@ section{padding-block:72px}
 
 /* ---------- brands ---------- */
 .brands{padding-bottom:40px}
-.marquee{overflow:hidden;padding:10px 0 26px;-webkit-mask:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
-.track{display:flex;gap:16px;width:max-content;animation:marquee 46s linear infinite}
-.marquee:hover .track{animation-play-state:paused}
-@keyframes marquee{to{transform:translateX(-50%)}}
-.brand-chip{display:flex;align-items:center;gap:16px;border-radius:99px;padding:14px 26px 14px 14px;white-space:nowrap}
-.brand-chip b{font-size:clamp(24px,2.6vw,38px);font-weight:300;letter-spacing:-.04em}
+.brands-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:28px}
+.brand-chip{display:flex;flex-direction:column;align-items:flex-start;gap:12px;border-radius:24px;padding:22px;min-width:0}
+.brand-chip b{font-size:clamp(22px,2.3vw,32px);font-weight:400;letter-spacing:-.04em;line-height:1.15}
 .lock{display:inline-flex;align-items:center;gap:6px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);background:rgba(255,255,255,.75);border-radius:99px;padding:7px 11px;box-shadow:inset 0 0 0 1px var(--hair)}
 .lock svg{width:11px;height:11px}
 .nda-what{display:block;font-size:13px;color:var(--ink2);font-weight:400;letter-spacing:0;margin-top:2px}
@@ -144,24 +141,9 @@ section{padding-block:72px}
 .card.big .metric{font-size:15px}
 
 /* ---------- concept lab ---------- */
-.lab-tabs{display:flex;gap:6px;flex-wrap:wrap;border-radius:99px;padding:6px;margin-bottom:24px;width:max-content;max-width:100%}
-.lab-tabs button{border-radius:99px;padding:11px 18px;font-size:14px;color:var(--ink2);transition:background .35s,color .35s}
-.lab-tabs button[aria-selected="true"]{background:var(--ink);color:var(--paper)}
-.lab-tabs button:not([aria-selected="true"]):hover{background:rgba(255,255,255,.7)}
-.lab-panel{display:grid;grid-template-columns:minmax(260px,.8fr) 2fr;gap:18px;align-items:stretch}
-.lab-note{border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:14px}
-.lab-note h3{font-size:30px;font-weight:300;letter-spacing:-.035em;line-height:1.05}
-.lab-note p{margin:0;font-size:15px;line-height:1.6;color:var(--ink2)}
-.lab-note .badge{align-self:flex-start;font-size:11px;letter-spacing:.1em;text-transform:uppercase;border-radius:99px;padding:7px 12px;background:rgba(255,255,255,.7);box-shadow:inset 0 0 0 1px var(--hair);color:var(--ink2)}
-.lab-note .button{margin-top:auto;align-self:flex-start}
-.lab-reel{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 4px 18px;scrollbar-width:thin}
-.lab-tile{position:relative;flex:none;height:420px;border-radius:24px;overflow:hidden;scroll-snap-align:start;background:#141312;box-shadow:var(--shadow);transition:transform .6s var(--spring)}
-.lab-tile:hover{transform:translateY(-6px)}
-.lab-tile img{height:100%;width:auto;object-fit:cover;transition:transform 1.2s var(--ease)}
-.lab-tile:hover img{transform:scale(1.05)}
-.lab-tile .play{position:absolute;left:14px;bottom:14px;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-size:13px;background:rgba(255,255,255,.9);color:var(--ink);transition:transform .5s var(--spring)}
-.lab-tile:hover .play{transform:scale(1.15)}
-.lab-panel.swap{animation:swap .7s var(--ease)}
+.concept-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.concept-grid .card{height:440px;min-width:0}
+.concept-grid .metric{white-space:normal;line-height:1.35}
 @keyframes swap{from{opacity:0;transform:translateY(18px);filter:blur(6px)}}
 
 /* ---------- process ---------- */
@@ -243,7 +225,6 @@ body.modal-open{overflow:hidden}
   .steps{grid-template-columns:repeat(2,1fr)}
   .case-layout{grid-template-columns:minmax(0,1fr)}
   .stage-col{position:static}
-  .lab-panel{grid-template-columns:1fr}
 }
 @media (max-width:760px){
   .wrap{width:calc(100% - 32px)}
@@ -272,7 +253,6 @@ body.modal-open{overflow:hidden}
   .card .top{top:10px;left:10px;right:10px}
   .card .play{width:34px;height:34px}
   .lab-tile{height:340px}
-  .lab-tabs{border-radius:24px}
   .steps{grid-template-columns:1fr}
   .steps article{min-height:0}
   .contact-links{text-align:left}
@@ -290,7 +270,6 @@ body.modal-open{overflow:hidden}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
   .reveal{opacity:1;transform:none;filter:none}
-  .track{animation:none;flex-wrap:wrap;width:auto}
   .wave{transform:none}
 }
 
@@ -316,7 +295,6 @@ body.modal-open{overflow:hidden}
 .lang::after{content:'';position:absolute;inset:-2px;border-radius:inherit;padding:2px;background:var(--acc);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
 .card .metric,.case-metric{background:linear-gradient(#0b0b0b,#0b0b0b) padding-box,var(--acc) border-box;border:1.5px solid transparent}
 .card:hover{box-shadow:0 44px 70px -30px rgba(30,20,10,.5),0 0 0 1.5px rgba(255,255,255,.6),0 30px 80px -30px rgba(255,111,145,.45)}
-.lab-tabs button[aria-selected="true"]{background:linear-gradient(#0b0b0b,#0b0b0b) padding-box,var(--acc) border-box;border:1.5px solid transparent}
 .knob{background:radial-gradient(circle at 35% 30%,#fff,rgba(255,255,255,.55) 60%),var(--acc)}
 .steps article:hover .knob{color:var(--ink)}
 .facts h3 i{background:var(--acc);color:#fff}
@@ -326,3 +304,9 @@ body.modal-open{overflow:hidden}
 .contact h2 .soft{background:linear-gradient(100deg,#ffb48c,#ff8fa8 40%,#c5a8ff 80%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .eyebrow::before{content:'';display:inline-block;width:18px;height:2px;border-radius:2px;background:var(--acc);vertical-align:middle;margin-right:10px}
 @media (prefers-reduced-motion:reduce){.aura{animation:none}}
+/* Static, fully visible collections and a normal cursor over text. */
+body{cursor:default}
+a,button,a *,button *{cursor:pointer}
+@media(max-width:1080px){.concept-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.brands-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.brand-chip{padding:16px 12px;border-radius:18px}.brand-chip b{font-size:21px}.brand-chip .lock{font-size:8px;letter-spacing:.03em;padding:6px}.nda-what{font-size:11px;line-height:1.45;margin-top:8px}.concept-grid{gap:12px}}
+@media(max-width:420px){.concept-grid{grid-template-columns:1fr}.concept-grid .card{height:380px}.brand-chip b{font-size:19px;letter-spacing:-.04em}}
