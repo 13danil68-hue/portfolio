@@ -203,7 +203,7 @@ dialog.closing .sheet{animation:sink .3s var(--ease) forwards}
 .close{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;font-size:16px;transition:transform .4s var(--spring)}
 .close:hover{transform:rotate(90deg) scale(1.08)}
 .case-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;align-items:start}
-.stage-col{position:sticky;top:76px}
+.stage-col{position:sticky;top:76px;min-width:0}.case-text{min-width:0}
 .stage{position:relative;border-radius:26px;overflow:hidden;background:#0b0b0b;margin:0 auto;max-height:78vh;box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
 .stage video,.stage img{width:100%;height:100%;object-fit:contain;background:#0b0b0b}
 .stage.swap{animation:swap .6s var(--ease)}
@@ -241,7 +241,7 @@ body.modal-open{overflow:hidden}
   .card.big{grid-column:span 2;grid-row:span 2}
   .card.tall{grid-row:span 2}
   .steps{grid-template-columns:repeat(2,1fr)}
-  .case-layout{grid-template-columns:1fr}
+  .case-layout{grid-template-columns:minmax(0,1fr)}
   .stage-col{position:static}
   .lab-panel{grid-template-columns:1fr}
 }
