@@ -3,8 +3,8 @@
 const copy = {
   ru: {
     navWork: 'Кейсы', navContact: 'Контакты', location: 'Пермь · работаю удалённо · открыт к проектам',
-    first: 'Данила', last: 'Тюменцев', role: 'AI Creator: рекламные AI-ролики, консистентные персонажи, AI-аватары, AI-VFX',
-    intro: 'Делаю AI-видео полным циклом - от идеи и сценария до генерации, звука и монтажа. В нейросетях с первых рабочих моделей, третий год делаю на них рекламу и контент для брендов.',
+    first: 'Данила', last: 'Тюменцев', role: 'Creative Producer / AI Creator',
+    intro: 'Креативный и контент-продюсер. Придумываю форматы, концепции и сценарии для брендов и блогеров. Веду производство сам или с командой - от идеи до готового видео: AI-генерация, реальные съёмки, VFX, звук и монтаж.',
     viewWork: 'Смотреть кейсы ↓', resume: 'Скачать резюме ↗', fullCycle: 'От идеи до финального кадра',
     stat1: '140 млн+', stat1Label: 'просмотров на роликах, где я делал AI-часть', stat2: '84,1 млн', stat2Label: 'просмотров на одном Reels',
     stat3: '48 млн', stat3Label: 'YouTube Shorts за 2026 год', stat4Label: 'брендов: банки, ритейл, финтех, FMCG',
@@ -12,20 +12,23 @@ const copy = {
     brandsIntro: 'Многие проекты под NDA. Подробнее о задачах, решениях и процессе расскажу на собеседовании.',
     publicLbl: 'Открытые проекты:',
     selected: '02 / Кейсы', works: 'Публичные<br><span class="soft">проекты</span>', workIntro: 'Открой кейс - внутри видео, задача, что сделал и результат.',
-    processLabel: '03 / Полный цикл', processTitle: 'Одна идея.<br><span class="soft">Весь продакшн.</span>',
-    processIntro: 'Беру ролик от брифа до финального файла и держу стиль и героев одинаковыми от кадра к кадру.',
+    processLabel: '03 / Продюсирование и продакшн', processTitle: 'Одна идея.<br><span class="soft">Весь продакшн.</span>',
+    processIntro: 'Разрабатываю контентные форматы, ставлю задачи команде и контролирую сроки и качество. Сам работаю с AI-видео, персонажами, аватарами, VFX и монтажом.',
     step1: 'Идея и сценарий', step1Text: 'Хуки, история, раскадровка.', step2: 'Генерация и герои', step2Text: 'Консистентные персонажи, AI-аватары, VFX, ComfyUI-workflow.',
     step3: 'Голос и музыка', step3Text: 'Озвучка, липсинг, музыка в Suno, саунд-дизайн.', step4: 'Монтаж и вариации', step4Text: 'Сборка, графика, вариации хуков под тесты.',
+    producer1: 'Форматы и идеи', producer1Text: 'Разрабатываю рубрики, серийные форматы, сценарии и хуки для Reels и Shorts. Отслеживаю тренды и собираю банк референсов под задачи проекта.',
+    producer2: 'Команда и качество', producer2Text: 'Ставлю задачи дизайнерам, монтажёрам, AI-креаторам, блогерам и UGC-креаторам. Координирую работу, контролирую сроки и качество, обучаю специалистов.',
+    producer3: 'Процессы и автоматизация', producer3Text: 'Выстраиваю повторяемый процесс выпуска контента. Использую собственные сборки для автомонтажа и систему мониторинга трендов, созданную вместе с разработчиком.',
     toolsLbl: 'Инструменты',
     contactLabel: '04 / На связи', contactTitle: 'Беру креатив от идеи<br><span class="soft">до финального файла</span>',
-    footer: 'Данила Тюменцев · AI Creator', top: 'Наверх ↑', loadError: 'Не удалось загрузить кейсы. Обновите страницу.',
+    footer: 'Данила Тюменцев · Creative Producer / AI Creator', top: 'Наверх ↑', loadError: 'Не удалось загрузить кейсы. Обновите страницу.',
     task: 'Задача', did: 'Что сделал', result: 'Результат', close: 'Закрыть', watch: 'Открыть кейс', clip: 'Ролик', still: 'Кадр',
     kindCase: 'Кейс', gallery: 'Кадры и материалы',
   },
   en: {
     navWork: 'Work', navContact: 'Contact', location: 'Perm, Russia · remote · open to projects',
-    first: 'Danila', last: 'Tyumentsev', role: 'AI Creator: AI video ads, consistent characters, AI avatars, AI VFX',
-    intro: 'I make AI video end to end - from idea and script to generation, sound and edit. I have worked with generative AI since the first usable models and for three years have used it to make ads and content for brands.',
+    first: 'Danila', last: 'Tyumentsev', role: 'Creative Producer / AI Creator',
+    intro: 'Creative and content producer. I develop formats, concepts and scripts for brands and creators. I handle production myself or lead a team - from idea to finished video: AI generation, live footage, VFX, sound and editing.',
     viewWork: 'Explore work ↓', resume: 'Download resume ↗', fullCycle: 'From idea to the final frame',
     stat1: '140M+', stat1Label: 'views on videos where I did the AI work', stat2: '84.1M', stat2Label: 'views on a single Reel',
     stat3: '48M', stat3Label: 'YouTube Shorts views in 2026', stat4Label: 'brands: banking, retail, fintech, FMCG',
@@ -33,13 +36,16 @@ const copy = {
     brandsIntro: 'Many projects are under NDA. I can discuss the briefs, solutions and creative process in more detail during an interview.',
     publicLbl: 'Open projects:',
     selected: '02 / Work', works: 'Public<br><span class="soft">projects</span>', workIntro: 'Open a case to see the video, the task, what I did and the result.',
-    processLabel: '03 / Full cycle', processTitle: 'One idea.<br><span class="soft">The whole production.</span>',
-    processIntro: 'I take a video from brief to final file and keep the style and characters consistent from shot to shot.',
+    processLabel: '03 / Producing and production', processTitle: 'One idea.<br><span class="soft">The whole production.</span>',
+    processIntro: 'I develop content formats, brief the team and oversee deadlines and quality. I also create AI videos, characters, avatars and VFX, and edit the final cut.',
     step1: 'Idea and script', step1Text: 'Hooks, story, storyboard.', step2: 'Generation and characters', step2Text: 'Consistent characters, AI avatars, VFX, ComfyUI workflows.',
     step3: 'Voice and music', step3Text: 'Voice-over, lip sync, music in Suno, sound design.', step4: 'Edit and variations', step4Text: 'Assembly, graphics, hook variations for testing.',
+    producer1: 'Formats and ideas', producer1Text: 'I develop recurring series, scripts and hooks for Reels and Shorts. I track trends and build a reference library around each project’s goals.',
+    producer2: 'Team and quality', producer2Text: 'I brief designers, editors, AI creators, bloggers and UGC creators. I coordinate their work, oversee deadlines and quality, and train specialists.',
+    producer3: 'Processes and automation', producer3Text: 'I build repeatable content production workflows using custom automated editing tools and a trend-monitoring system created with a developer.',
     toolsLbl: 'Tools',
     contactLabel: '04 / Get in touch', contactTitle: 'From idea<br><span class="soft">to final file</span>',
-    footer: 'Danila Tyumentsev · AI Creator', top: 'Back to top ↑', loadError: 'Could not load the projects. Please refresh the page.',
+    footer: 'Danila Tyumentsev · Creative Producer / AI Creator', top: 'Back to top ↑', loadError: 'Could not load the projects. Please refresh the page.',
     task: 'The task', did: 'What I did', result: 'The result', close: 'Close', watch: 'Open case', clip: 'Video', still: 'Still',
     kindCase: 'Case', gallery: 'Stills and materials',
   },
@@ -74,7 +80,7 @@ let lang = 'ru', cases = [], active = null, opener = null;
 
 function translate() {
   document.documentElement.lang = lang;
-  document.title = lang === 'ru' ? 'Данила Тюменцев - AI Creator' : 'Danila Tyumentsev - AI Creator';
+  document.title = lang === 'ru' ? 'Данила Тюменцев - Creative Producer / AI Creator' : 'Danila Tyumentsev - Creative Producer / AI Creator';
   $$('[data-i]').forEach((e) => { if (copy[lang][e.dataset.i] != null) e.innerHTML = copy[lang][e.dataset.i]; });
   $$('.resume').forEach((e) => (e.href = `assets/resume-${lang}.pdf`));
   const b = $('#language'); b.textContent = lang === 'ru' ? 'EN' : 'RU'; b.setAttribute('aria-label', lang === 'ru' ? 'Switch to English' : 'Переключить на русский');
