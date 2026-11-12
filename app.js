@@ -1,8 +1,8 @@
-// Danila Tyumentsev portfolio: RU/EN copy, brands, bento case grid, concept lab, animated case dialog.
+// Danila Tyumentsev portfolio: RU/EN copy, brands, bento case grid, animated case dialog.
 // Language: ?lang=en / ?lang=ru in the link wins, then the saved choice, then the browser language.
 const copy = {
   ru: {
-    navWork: 'Кейсы', navLab: 'Концепты', navContact: 'Контакты', location: 'Пермь · работаю удалённо · открыт к проектам',
+    navWork: 'Кейсы', navContact: 'Контакты', location: 'Пермь · работаю удалённо · открыт к проектам',
     first: 'Данила', last: 'Тюменцев', role: 'AI Creator: рекламные AI-ролики, консистентные персонажи, AI-аватары, AI-VFX',
     intro: 'Делаю AI-видео полным циклом - от идеи и сценария до генерации, звука и монтажа. В нейросетях с первых рабочих моделей, третий год делаю на них рекламу и контент для брендов.',
     viewWork: 'Смотреть кейсы ↓', resume: 'Скачать резюме ↗', fullCycle: 'От идеи до финального кадра',
@@ -12,21 +12,18 @@ const copy = {
     brandsIntro: 'Многие проекты под NDA. Подробнее о задачах, решениях и процессе расскажу на собеседовании.',
     publicLbl: 'Открытые проекты:',
     selected: '02 / Кейсы', works: 'Публичные<br><span class="soft">проекты</span>', workIntro: 'Открой кейс - внутри видео, задача, что сделал и результат.',
-    labLabel: '03 / Концепт-лаборатория', labTitle: 'Свободные<br><span class="soft">эксперименты</span>',
-    labIntro: 'Некоммерческие концепты, не заказы брендов. Здесь пробую новые модели, стили и приёмы.',
-    labBadge: 'Концепт, не заказ бренда', labOpen: 'Открыть подборку ↗', clips: 'роликов',
-    processLabel: '04 / Полный цикл', processTitle: 'Одна идея.<br><span class="soft">Весь продакшн.</span>',
+    processLabel: '03 / Полный цикл', processTitle: 'Одна идея.<br><span class="soft">Весь продакшн.</span>',
     processIntro: 'Беру ролик от брифа до финального файла и держу стиль и героев одинаковыми от кадра к кадру.',
     step1: 'Идея и сценарий', step1Text: 'Хуки, история, раскадровка.', step2: 'Генерация и герои', step2Text: 'Консистентные персонажи, AI-аватары, VFX, ComfyUI-workflow.',
     step3: 'Голос и музыка', step3Text: 'Озвучка, липсинг, музыка в Suno, саунд-дизайн.', step4: 'Монтаж и вариации', step4Text: 'Сборка, графика, вариации хуков под тесты.',
     toolsLbl: 'Инструменты',
-    contactLabel: '05 / На связи', contactTitle: 'Беру креатив от идеи<br><span class="soft">до финального файла</span>',
+    contactLabel: '04 / На связи', contactTitle: 'Беру креатив от идеи<br><span class="soft">до финального файла</span>',
     footer: 'Данила Тюменцев · AI Creator', top: 'Наверх ↑', loadError: 'Не удалось загрузить кейсы. Обновите страницу.',
     task: 'Задача', did: 'Что сделал', result: 'Результат', close: 'Закрыть', watch: 'Открыть кейс', clip: 'Ролик', still: 'Кадр',
-    kindCase: 'Кейс', kindConcept: 'Концепт', gallery: 'Кадры и материалы', conceptNote: 'Творческий эксперимент, не заказ бренда',
+    kindCase: 'Кейс', gallery: 'Кадры и материалы',
   },
   en: {
-    navWork: 'Work', navLab: 'Concepts', navContact: 'Contact', location: 'Perm, Russia · remote · open to projects',
+    navWork: 'Work', navContact: 'Contact', location: 'Perm, Russia · remote · open to projects',
     first: 'Danila', last: 'Tyumentsev', role: 'AI Creator: AI video ads, consistent characters, AI avatars, AI VFX',
     intro: 'I make AI video end to end - from idea and script to generation, sound and edit. I have worked with generative AI since the first usable models and for three years have used it to make ads and content for brands.',
     viewWork: 'Explore work ↓', resume: 'Download resume ↗', fullCycle: 'From idea to the final frame',
@@ -36,18 +33,15 @@ const copy = {
     brandsIntro: 'Many projects are under NDA. I can discuss the briefs, solutions and creative process in more detail during an interview.',
     publicLbl: 'Open projects:',
     selected: '02 / Work', works: 'Public<br><span class="soft">projects</span>', workIntro: 'Open a case to see the video, the task, what I did and the result.',
-    labLabel: '03 / Concept lab', labTitle: 'Free<br><span class="soft">experiments</span>',
-    labIntro: 'Non-commercial concepts, not brand commissions. This is where I try new models, styles and techniques.',
-    labBadge: 'Concept, not a brand commission', labOpen: 'Open the set ↗', clips: 'videos',
-    processLabel: '04 / Full cycle', processTitle: 'One idea.<br><span class="soft">The whole production.</span>',
+    processLabel: '03 / Full cycle', processTitle: 'One idea.<br><span class="soft">The whole production.</span>',
     processIntro: 'I take a video from brief to final file and keep the style and characters consistent from shot to shot.',
     step1: 'Idea and script', step1Text: 'Hooks, story, storyboard.', step2: 'Generation and characters', step2Text: 'Consistent characters, AI avatars, VFX, ComfyUI workflows.',
     step3: 'Voice and music', step3Text: 'Voice-over, lip sync, music in Suno, sound design.', step4: 'Edit and variations', step4Text: 'Assembly, graphics, hook variations for testing.',
     toolsLbl: 'Tools',
-    contactLabel: '05 / Get in touch', contactTitle: 'From idea<br><span class="soft">to final file</span>',
+    contactLabel: '04 / Get in touch', contactTitle: 'From idea<br><span class="soft">to final file</span>',
     footer: 'Danila Tyumentsev · AI Creator', top: 'Back to top ↑', loadError: 'Could not load the projects. Please refresh the page.',
     task: 'The task', did: 'What I did', result: 'The result', close: 'Close', watch: 'Open case', clip: 'Video', still: 'Still',
-    kindCase: 'Case', kindConcept: 'Concept', gallery: 'Stills and materials', conceptNote: 'Creative experiment, not a brand commission',
+    kindCase: 'Case', gallery: 'Stills and materials',
   },
 };
 const categories = { ads: ['AI-реклама', 'AI ads'], animation: ['Анимация', 'Animation'], characters: ['Персонажи', 'Characters'], series: ['AI-сериалы', 'AI series'],
@@ -56,7 +50,13 @@ const nda = [['Пятёрочка', 'Pyaterochka', 'маскоты, реализ
   ['Maggi', 'Maggi', 'мультфильмы и реализм', 'cartoons and realistic video'], ['Haier', 'Haier', 'AI вместо съёмок', 'AI instead of live shoots'], ['Ростелеком', 'Rostelecom', 'рекламные AI-креативы', 'AI ad creatives'],
   ['BIOCAD', 'BIOCAD', 'AI-креативы', 'AI creatives'], ['БКС', 'BCS', 'рекламные AI-креативы', 'AI ad creatives'], ['ВинЛаб', 'WineLab', 'рекламные AI-креативы', 'AI ad creatives'],
   ['Маркетплейсы', 'Marketplaces', 'карточки товаров', 'product cards']];
-const tools = ['Higgsfield', 'Kling', 'Veo', 'Seedance', 'Sora', 'Runway', 'Midjourney', 'Nano Banana', 'Flux', 'ComfyUI', 'HeyGen', 'ElevenLabs', 'Suno', 'Premiere Pro', 'After Effects', 'CapCut', 'Photoshop', 'ChatGPT', 'Claude'];
+const toolGroups = [
+  {label: ['Видео', 'Video'], items: ['Higgsfield', 'Kling', 'Veo', 'Seedance', 'Sora', 'Runway', 'HeyGen']},
+  {label: ['Картинки', 'Images'], items: ['Midjourney', 'Nano Banana', 'Flux', 'ComfyUI', 'Photoshop']},
+  {label: ['Монтаж', 'Editing'], items: ['Premiere Pro', 'After Effects', 'CapCut']},
+  {label: ['Звук, озвучка и музыка', 'Sound, voice-over and music'], items: ['ElevenLabs', 'Suno']},
+  {label: ['Сценарии и идеи', 'Scripts and ideas'], items: ['ChatGPT', 'Claude']},
+];
 // client case order and bento sizes (4 columns on desktop, 2 on tablet and phone)
 const layout = [['uralsib', 'big'], ['bonche', 'big'], ['danmax', 'tall'], ['zelenovka', 'tall'], ['doston', 'tall'], ['easy-payments', 'tall'], ['maksik', 'big'], ['ai-series', 'big']];
 
@@ -81,7 +81,7 @@ function translate() {
   $('#close-dialog').setAttribute('aria-label', T('close'));
   const chip = (n) => `<div class="brand-chip glass"><b>${n[L()]}<span class="nda-what">${n[L() + 2]}</span></b></div>`;
   $('#nda-track').innerHTML = nda.map(chip).join('');
-  $('#tools').innerHTML = `<span class="lbl">${T('toolsLbl')}</span>` + tools.map((t) => `<span class="t">${t}</span>`).join('');
+  $('#tools').innerHTML = `<p class="lbl">${T('toolsLbl')}</p><div class="tool-groups">` + toolGroups.map((g) => `<div class="tool-group"><h3>${g.label[L()]}</h3><div class="tool-items">${g.items.map((t) => `<span class="t">${t}</span>`).join('')}</div></div>`).join('') + '</div>';
   render(); runCounters();
   if (active) renderCase(active.c, active.v, true);
 }
@@ -98,30 +98,23 @@ function render() {
       <div class="top"><span class="num">${String(i + 1).padStart(2, '0')}</span><span class="play" aria-hidden="true">${c.videos.length ? '▶' : '↗'}</span></div>
       <div class="info glass"><p class="fmt">${esc(cat(c))}</p><h3>${esc(c.brand[lang])}</h3><span class="metric">${esc(c.metric[lang])}</span></div></button>`;
   }).join('');
-  const concepts = cases.filter((c) => c.concept);
-  $('#lab-grid').innerHTML = concepts.map((c, i) => `<button class="card reveal" data-id="${c.id}" aria-label="${T('watch')}: ${esc(c.brand[lang])}">
-    <img class="cover" src="${c.poster}" alt="" loading="lazy">
-    <div class="top"><span class="num">${String(i + 1).padStart(2, '0')}</span><span class="play" aria-hidden="true">▶</span></div>
-    <div class="info glass"><p class="fmt">${T('kindConcept')}</p><h3>${esc(c.brand[lang])}</h3><span class="metric">${T('labBadge')}</span></div>
-  </button>`).join('');
   observe();
 }
 
 // ---------- case dialog ----------
 function renderCase(c, vi = 0, keep) {
   const t = c[lang], gal = c.gallery || [];
-  $('#dialog-kind').textContent = c.concept ? T('kindConcept') : T('kindCase');
+  $('#dialog-kind').textContent = T('kindCase');
   $('#case-content').innerHTML = `<div class="case-layout">
     <div class="stage-col"><div class="stage" id="stage"></div>
       ${c.videos.length > 1 ? `<div class="thumbs" role="group" aria-label="${T('clip')}">${c.videos.map((v, i) => `<button data-video="${i}" aria-pressed="${i === vi}" aria-label="${T('clip')} ${i + 1}"><img src="${v.poster || c.poster}" alt="" loading="lazy"></button>`).join('')}</div>` : ''}
       <p class="cap" id="cap"></p></div>
     <div class="case-text"><p class="eyebrow">${esc(cat(c))}</p><h2 id="case-title">${esc(t.t)}</h2>
       <span class="case-metric"><span class="dot" style="background:var(--paper)"></span>${esc(c.metric[lang])}</span>
-      ${c.concept ? `<span class="concept-note">${T('conceptNote')}</span>` : ''}
       <div class="facts">${[['task', 'q'], ['did', 'd'], ['result', 'r']].map(([l, k], i) => `<article class="glass"><h3><i>${i + 1}</i>${T(l)}</h3><p>${esc(t[k])}</p></article>`).join('')}</div>
       ${c.external ? `<div class="external">${c.external.map((l) => `<a class="glass sheen" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${esc(l[lang])} ↗</a>`).join('')}</div>` : ''}
     </div></div>
-    ${gal.length && !c.concept ? `<p class="gallery-head">${T('gallery')}</p><div class="gallery">${gal.map((u, i) => `<button data-zoom="${u}" aria-label="${T('still')} ${i + 1}"><img src="${u}" alt="${esc(c.brand[lang])} - ${T('still').toLowerCase()} ${i + 1}" loading="lazy"></button>`).join('')}</div>` : ''}`;
+    ${gal.length ? `<p class="gallery-head">${T('gallery')}</p><div class="gallery">${gal.map((u, i) => `<button data-zoom="${u}" aria-label="${T('still')} ${i + 1}"><img src="${u}" alt="${esc(c.brand[lang])} - ${T('still').toLowerCase()} ${i + 1}" loading="lazy"></button>`).join('')}</div>` : ''}`;
   selectVideo(vi, !keep);
 }
 
@@ -236,7 +229,7 @@ if (!reelBlocked) {
 if (!reduced) { let raf = 0; addEventListener('scroll', () => { if (raf) return; raf = requestAnimationFrame(() => { raf = 0; document.documentElement.style.setProperty('--scroll', Math.min(1, scrollY / (document.body.scrollHeight - innerHeight || 1)).toFixed(3)); }); }, { passive: true }); }
 
 translate(); observe();
-fetch('cases.json?v=4').then((r) => { if (!r.ok) throw Error(r.status); return r.json(); }).then((data) => {
+fetch('cases.json?v=6').then((r) => { if (!r.ok) throw Error(r.status); return r.json(); }).then((data) => {
   cases = data; render();
   if (location.hash.startsWith('#case-')) openCase(location.hash.slice(6));
 }).catch(() => ($('#load-error').hidden = false));

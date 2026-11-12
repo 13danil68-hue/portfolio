@@ -138,10 +138,6 @@ section{padding-block:72px}
 .card .metric{display:inline-block;margin-top:10px;font-size:13px;font-weight:500;color:var(--paper);background:var(--ink);border-radius:99px;padding:6px 12px}
 .card.big .metric{font-size:15px}
 
-/* ---------- concept lab ---------- */
-.concept-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.concept-grid .card{height:440px;min-width:0}
-.concept-grid .metric{white-space:normal;line-height:1.35}
 @keyframes swap{from{opacity:0;transform:translateY(18px);filter:blur(6px)}}
 
 /* ---------- process ---------- */
@@ -149,7 +145,7 @@ section{padding-block:72px}
 .steps article{border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:14px;min-height:220px}
 .steps h3{font-size:22px;font-weight:400;letter-spacing:-.025em;margin-top:auto}
 .steps p{margin:0;font-size:14px;line-height:1.55;color:var(--ink2)}
-.tools{margin-top:18px;border-radius:var(--r);padding:22px 26px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tools{margin-top:18px;border-radius:var(--r);padding:26px}
 .tools .lbl{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin-right:10px}
 .tools span.t{font-size:14px;border-radius:99px;padding:8px 14px;background:rgba(255,255,255,.65);box-shadow:inset 0 1px 0 #fff,0 4px 10px rgba(40,30,20,.06)}
 
@@ -196,7 +192,6 @@ dialog.closing .sheet{animation:sink .3s var(--ease) forwards}
 .case-text .eyebrow{margin-bottom:12px}
 .case-text h2{font-size:clamp(32px,3.6vw,52px);margin-bottom:16px}
 .case-metric{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:500;background:var(--ink);color:var(--paper);border-radius:99px;padding:9px 16px;margin-bottom:22px}
-.concept-note{display:block;font-size:13px;color:var(--ink2);margin:-10px 0 20px}
 .facts{display:flex;flex-direction:column;gap:12px}
 .facts article{border-radius:22px;padding:20px 22px}
 .facts h3{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin-bottom:8px;display:flex;align-items:center;gap:10px}
@@ -231,7 +226,6 @@ body.modal-open{overflow:hidden}
   .nav-in{padding:6px 6px 6px 16px}
   .wm-sub{display:none}
   .nav nav a{padding:9px 10px;font-size:13px}
-  .nav nav a[href="#lab"]{display:none}
   .hero{grid-template-columns:1fr;gap:28px;min-height:0;padding-top:20px}
   .hero h1{margin:22px 0 16px}
   .portrait{transform:none;max-width:420px}
@@ -250,7 +244,6 @@ body.modal-open{overflow:hidden}
   .card .fmt{font-size:9.5px}
   .card .top{top:10px;left:10px;right:10px}
   .card .play{width:34px;height:34px}
-  .lab-tile{height:340px}
   .steps{grid-template-columns:1fr}
   .steps article{min-height:0}
   .contact-links{text-align:left}
@@ -304,6 +297,11 @@ body.modal-open{overflow:hidden}
 /* Static, fully visible collections and a normal cursor over text. */
 body{cursor:default}
 a,button,a *,button *{cursor:pointer}
-@media(max-width:1080px){.concept-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){.brands-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.brand-chip{padding:16px 12px;border-radius:18px}.brand-chip b{font-size:21px}.nda-what{font-size:11px;line-height:1.45;margin-top:8px}.concept-grid{gap:12px}}
-@media(max-width:420px){.concept-grid{grid-template-columns:1fr}.concept-grid .card{height:380px}.brand-chip b{font-size:19px;letter-spacing:-.04em}}
+@media(max-width:760px){.brands-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.brand-chip{padding:16px 12px;border-radius:18px}.brand-chip b{font-size:21px}.nda-what{font-size:11px;line-height:1.45;margin-top:8px}}
+@media(max-width:420px){.brand-chip b{font-size:19px;letter-spacing:-.04em}}
+
+.tools > .lbl{margin:0 0 22px}
+.tool-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 32px}
+.tool-group h3{font-size:16px;font-weight:450;margin:0 0 12px}
+.tool-items{display:flex;flex-wrap:wrap;gap:8px}
+@media(max-width:600px){.tools{padding:22px 18px}.tool-groups{grid-template-columns:1fr;gap:22px}}
